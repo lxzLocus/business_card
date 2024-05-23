@@ -1,0 +1,523 @@
+Week 4: Chapter 4
+Hypotheses, Questions,
+and Evidence
+"Writing for Computer Science"
+Third Edition
+by
+Justin Zobel
+1
+The first stages of a research program involve choice of interesting
+topics or problems, and then identification of particular issues to
+investigate. The research is given direction by development of
+specific questions that the program aims to answer. These
+questions are based on an understanding—an informal model,
+perhaps—of how something works, or interacts, or behaves. They
+establish a framework for making observations about the object
+being studied. This framework can be characterized as a statement
+of belief about how the object behaves—in other words, a
+hypothesis.
+Preface
+2
+Many hypotheses concern some aspect of the physical world:
+whether something is occurring, whether it is possible to alter
+something in a predictable way, or whether a model is able to
+accurately predict new events.
+In computer science, some hypotheses are of this kind. We
+examine the limits of speech recognition, ask whether Web search
+can be used effectively by children, or predict how well a service will
+respond to increasing load. Other hypotheses are constructive. For
+example, we propose new technologies and explore their limitations
+and feasibility, or propose theorems that imply that there may be
+new solutions to long-standing algorithmic problems. Regardless of
+field, if you wish to achieve robust research outcomes it is essential
+to have a hypothesis. This chapter concerns hypotheses and
+research questions, and how we use evidence to confirm or disprove them.
+Preface 2
+3
+In outline, an example research program might proceed as follows.
+• A researcher investigating algorithms might speculate as to
+whether it is possible to make better use of the cache on a CPU
+to reduce computational costs.
+• Preliminary investigation might lead to the hypothesis that a treebased structure with poor memory locality will be slower in
+practice than an array-based structure with high locality, despite
+the additional computational cost.
+• The hypothesis suggests the research question of whether a
+particular sorting algorithm can be improved by replacing the tree
+structure with the array structure.
+Hypotheses
+4
+• The phenomenon that should be observed if the hypothesis is
+correct is a trend: for example, as the number of items to be
+sorted is increased, the tree-based method should increasingly
+show a high rate of cache misses compared to the array-based
+method.
+• The evidence is the number of cache misses for several sets of
+items to be sorted.
+Alternatively, external evidence might be used, such as changes
+in execution time as the volume of data changes.
+As this example illustrates, the structure of the research program
+flows from having a definite research question and hypothesis.
+Hypotheses 2
+5
+A hypothesis or research question should be specific and precise,
+and should be unambiguous; the more loosely a concept is defined,
+the more easily it will satisfy many needs simultaneously, even
+when these needs are contradictory. And it is important to state
+what is not being proposed—what the limits on the conclusions will
+be.
+This motivation by belief, or instinct, is a crucial element of the
+process of science: since ideas cannot be known to be correct when
+they are first conceived, it is intuition or plausibility that suggests
+them as worthy of consideration. That is, the investigation may well
+have been undertaken for subjective reasons; but the final report on
+the research—that is, the published paper—must be objective.
+A hypothesis must be testable. One aspect of testability is that the
+scope be limited to a domain that can feasibly be explored. Another,
+crucial aspect is that the hypothesis should be capable of
+falsification.
+Hypotheses 3
+6
+The exercise of refining and clarifying a hypothesis may expose that
+it is not worth pursuing. For example, if complex restrictions must be
+imposed to make the hypothesis work, or if it is necessary to
+assume that problems that are currently insoluble must be
+addressed before the work can be used, how interesting is the
+research?
+Hypotheses 4
+7
+A form of research where poor hypotheses seem particularly
+common is “black box” work, where the black box is an algorithm
+whose properties are poorly understood. For example, some
+research consists of applying a black-box learning algorithm to new
+data, with the outcome that the results are an improvement on a
+baseline method. (Often, the claim is to the effect that “our black
+box is significantly better than random”.) The apparent ability of
+these black boxes to solve problems without creative input from a
+scientist attracts research of low value. A weakness of such
+research is that it provides no insights into the data or the black box,
+and has no implications for other investigations. In particular, such
+results rarely tell us whether the same behaviour would occur if the
+same approach were applied to a different situation, or even to a
+new but similar data set.
+Hypotheses 5
+8
+That is, the results are not predictive. There may be cases in which
+it is interesting to observe the behaviour of an algorithm on some
+data, but in general the point of experimentation is to confirm
+models or theories, which can then be used to predict future
+behaviour. That is, we use experiments to learn about more general
+properties, a characteristic that is missing from black-box research.
+It may be necessary to refine a hypothesis after initial testing;
+indeed, much of scientific progress can be viewed as refinement
+and development of hypotheses to fit new observations.
+Hypotheses 6
+9
+However, the hypothesis should not follow the experiments. A
+hypothesis will often be based on observations, but can only be
+regarded as confirmed if it is able to make successful predictions.
+There is a vast difference between an observation such as “the
+algorithm worked on our data” and a tested hypothesis such as “the
+algorithm was predicted to work on any data of this class, and this
+prediction has been confirmed on our data”. Another perspective on
+this issue is that, as far as possible, tests should be blind. If an
+experiment and hypothesis have been fine-tuned on the data, it
+cannot be said that the experiment provides confirmation. At best
+the experiment has provided observations on which the hypothesis
+is based. In other words: first hypothesize, then test.
+Hypotheses 7
+10
+One component of a strong paper is a precise, interesting
+hypothesis. Another component is the testing of the hypothesis and
+the presentation of the supporting evidence. As part of the research
+process you need to test your hypothesis and if it is correct—or, at
+least, not falsified—assemble supporting evidence. In presenting
+the hypothesis, you need to construct an argument relating your
+hypothesis to the evidence.
+A hypothesis can be tested in a preliminary way by considering its
+effect, that is, by examining whether there is a simple argument for
+keeping or discarding it. For example, are there any improbable
+consequences if the hypothesis is true? If so, there is a good
+chance that the hypothesis is wrong. For a hypothesis that
+displaces or contradicts some currently held belief, is the
+contradiction such that the belief can only have been held out of
+stupidity? Again, the hypothesis is probably wrong. Does the
+hypothesis cover all of the observations explained by the current
+belief? If not, the hypothesis is probably uninteresting.
+Defending Hypotheses
+11
+Always consider the possibility that your hypothesis is wrong. It is
+often the case that a correct hypothesis at times seems dubious—
+perhaps in the early stages, before it is fully developed, or when it
+appears to be contradicted by initial experimental evidence—but the
+hypothesis survives and may even be strengthened by test and
+refinement in the face of doubt. But equally often a hypothesis is
+false, in which case clinging to it is a waste of time. Persist for long
+enough to establish whether or not it is likely to be true, but to
+persist longer is foolish.
+Every research program suggests its own skeptical questions. Such
+questioning is also appropriate later in a research program, where it
+gives the author an opportunity to make a critical assessment of the
+work.
+Defending Hypotheses 2
+12
+A paper can be viewed as an assembly of evidence and supporting
+explanations; that is, as an attempt to persuade others to share your
+conclusions. Good science uses objective evidence to achieve aims
+such as to persuade readers to make more informed decisions and
+to deepen their understanding of problems and solutions. In a writeup you pose a question or hypothesis, then present evidence to
+support your case. The evidence needs to be convincing because
+the processes of science rely on readers being critical and skeptical;
+there is no reason for a reader to be interested in work that is
+inconclusive.
+There are, broadly speaking, four kinds of evidence that can be
+used to support a hypothesis: proof, modeling, simulation, and
+experiment.
+Forms of Evidence
+13
+Proof. A proof is a formal argument that a hypothesis is correct (or
+wrong). It is a mistake to suppose that the correctness of a proof is
+absolute—confidence in a proof may be high, but that does not
+guarantee that it is free from error; it is common for a researcher to
+feel certain that a theorem is correct but have doubts about the
+mechanics of the proof.
+Model. A model is a mathematical description of the hypothesis (or
+some component of the hypothesis, such as an algorithm whose
+properties are being considered) and there will usually be a
+demonstration that the hypothesis and model do indeed correspond.
+Forms of Evidence 2
+14
+Simulation. A simulation is usually an implementation or partial
+implementation of a simplified form of the hypothesis, in which the
+difficulties of a full implementation are sidestepped by omission or
+approximation.
+A great advantage of a simulation is that it provides parameters that
+can be smoothly adjusted, allowing the researcher to observe
+behaviour across a wide spectrum of inputs or characteristics. For
+example, if you are comparing algorithms for removal of errors in
+genetic data, use of simulated data might allow you to control the
+error rate, and observe when the different algorithms begin to fail.
+Real data may have unknown numbers of errors, or only a couple of
+different error rates, so in some sense can be less informative.
+However, with a simulation there is always the risk that it is
+unrealistic or simplistic, with properties that mean that the observed
+results would not occur in practice. Thus simulations are powerful
+tools, but, ultimately, need to be verified against reality.
+Forms of Evidence 3
+15
+Experiment. An experiment is a full test of the hypothesis, based
+on an implementation of the proposal and on real—or highly realistic
+—data. In an experiment there is a sense of really doing it, while in
+a simulation there is a sense of only pretending. For example,
+artificial data provides a mechanism for exploring behaviour, but
+corresponding behaviour needs to be observed on real data if the
+outcomes are to be persuasive.
+Ideally an experiment should be conducted in the light of predictions
+made by a model, so that it confirms some expected behaviour. An
+experiment should be severe; seek out tests that seem likely to fail if
+the hypothesis is false, and explore extremes. The traditional
+sciences, and physics in particular, proceed in this way.
+Theoreticians develop models of phenomena that fit known
+observations; experimentalists seek confirmation through fresh
+experiments.
+Forms of Evidence 4
+16
+Different forms of evidence can be used to confirm one another,
+with say a simulation used to provide further evidence that a proof is
+correct. But the different forms should not be confused with one
+another. For example, suppose that for some algorithm there is a
+mathematical model of expected performance. Encoding this model
+in a program and computing predicted performance for certain
+values of the model parameters is not an experimental test of the
+algorithm and should never be called an experiment; it does not
+even confirm that the model is a description of the algorithm. At best
+it confirms claimed properties of the model.
+Use of Evidence
+17
+When choosing whether to use a proof, model, simulation, or
+experiment as evidence, consider how convincing each is likely to
+be to the reader. If your evidence is questionable—say a simplistic
+and assumption-laden model, an involved algebraic analysis and
+application of advanced statistics, or an experiment on limited data
+—the reader may well be skeptical of the result. Select a form of
+evidence, not so as to keep your own effort to a minimum, but to be
+as persuasive as possible.
+Use of Evidence 2
+18
+Some novice researchers feel that the standards expected of
+evidence are too high, but readers—including referees and
+examiners—tend to trust work that is already published in
+preference to a new, unrefereed paper, and have no reason to trust
+work where the evidence is thin. Moreover, experienced
+researchers are well aware that skepticism is justified. It has been
+said, with considerable truth, that most published research findings
+are false; and unpublished findings are worse.
+This means that a paper must be persuasive. Your written work is
+the one chance to persuade readers to accept the ideas, and they
+will only do so if the evidence and arguments are complete and
+convincing.
+Use of Evidence 3
+19
+A perspective on the history of science is that it is also a history of
+development of tools of measurement. Our understanding of the
+laws of physics followed from development of telescopes,
+voltmeters, thermometers, and so on. Each improvement in the
+measurement technology has refined our understanding of the
+underlying properties of the universe.
+Approaches to Measurement
+20
+From this perspective, the purpose of experimentation is to take
+measurements that can be used as evidence. A good choice of
+measure is essential to [to] practical system improvement and to
+persuasive and insightful writing. The measurements are intended
+to be a consequence of some underlying phenomenon that is
+described by a theory or hypothesis. In this approach to research,
+phenomena—the eternal truths studied by science—cannot change,
+but the measurements can, because they depend on the context of
+the specific experiment. Measurements can be quantitative, such as
+number or duration or volume—the speed of a system, say, or an
+algorithm’s efficiency relative to a baseline. They can also be
+qualitative, such as an occurrence or difference—whether an
+outcome was achieved, or whether particular features were
+observed.
+Approaches to Measurement 2
+21
+As you develop your research questions, then, you should ask what
+is to be measured? and what measures will be used? For example,
+when examining an algorithm, will it be measured by execution
+time? And if so, what mechanism will be used to measure it? This
+question can be tricky to answer for a single-threaded process
+running on a single machine. For a distributed process using
+diverse resources across a network, there probably is no perfect
+answer, only a range of choices with a variety of flaws and
+shortcomings, each of which needs to be understood by you and by
+your readers.
+Approaches to Measurement 3
+22
+Once a qualitative aim is replaced by a single quantitative measure,
+the goal of research in the field can shift away from achievement of
+a practical outcome, and instead consist entirely of optimization to
+the measure, regardless of how representative the measure is of
+the broader problem. A strong research program will rest, in part, on
+recognition of the distinction between qualitative goals and different
+quantitative approximations to that goal.
+The problem of optimization-to-a-measure is particularly acute for
+fields that make use of shared reference data sets, where this data
+is used for evaluation of new methods. It is all too easy for
+researchers to begin to regard the standard data as being
+representative of the problem as a whole, and to tune their methods
+to perform well on just these data sets. Any field in which the
+measures and the data are static is at risk of becoming stagnant.
+Approaches to Measurement 4
+23
+Questions about the quality of evidence can be used to evaluate
+other people’s research, and provide an opportunity to reflect on
+whether the outcomes of your work are worthwhile. There isn’t a
+simple division of research into “good” and “bad”, but it is not difficult
+to distinguish valuable research from work that is weak or pointless.
+Research that consists of proposals and speculation, entirely
+without a serious attempt at evaluation, can be more difficult to
+respect. Why should a reader regard such work as valid? If the
+author cannot offer anything to measure, arguably it isn’t science.
+And research isn’t “theoretical” just because it isn’t experimental.
+Theoretical work describes testable theories.
+Good and Bad Science
+24
+The quality of work can be unclear if the terminology used to
+describe it is over-inflated. Sometimes such terminology is used to
+avoid having to define terms properly.
+Terms that in common usage describe aspects of cognition or
+consciousness, such as “intelligent” or “belief”, or even “aware”, are
+particularly slippery. They sound like ordinary concepts we are all
+familiar with. But in their common usage they are not well defined;
+and when terms are borrowed from common usage their meaning
+changes. These terms anthropomorphize the computational
+behaviour to create a sense of specialness or drama, [when] in fact
+what is being described may well be highly mechanical and
+deterministic, and possibly isn’t very interesting. This is a form of the
+renaming fallacy noted earlier. Thus, while we might have an
+impression of what the author means when they claim that a system
+is intelligent, that impression is vague. Successful science is not
+built on vagueness.
+Good and Bad Science 2
+25
+Some science is not simply weak, but can be described as
+pseudoscience. Inevitably, some claimed achievements are
+delusional or bogus. Pseudoscience is a broad label covering a
+range of scientific sins, from self-deception and confusion to outright
+fraud. A definition is that pseudoscience is work that uses the
+language and respectability of science to gain credibility for
+statements that are not based on evidence that meets scientific
+standards. Much pseudoscience shares a range of characteristics:
+the results and ideas don’t seem to develop over time, systems are
+never quite ready for demonstration, the work proceeds in a vacuum
+and is unaffected by other advances, protagonists argue rather than
+seek evidence, and the results are inconsistent with accepted facts.
+Often such work is strenuously promoted by one individual or a
+small number of devotees while the rest of the scientific community
+ignores it.
+Good and Bad Science 3
+26
+The logic underlying some papers is outright mystifying. To an
+author, it may seem a major step to identify and solve a new
+problem, but such steps can go too far. A paper on retrieval for a
+specific form of graph used a new query language and matching
+technique, a new way of evaluating similarity, and data based on a
+new technique for deriving the graphs from text and semantically
+(that word again!) labelling the edges. Every element of this paper
+was a separate contribution whose merit could be disputed.
+Presented in a brief paper, the work seemed worthless. Inventing a
+problem, a solution to the problem, and a measure of the solution—
+all without external justification—is a widespread form of bad
+science.
+Good and Bad Science 4
+27
+We need to be wary of claimed results, not only because we might
+disagree for technical reasons but because the behaviour of other
+researchers may not be objective or reasonable. Another lesson is
+that acceptance of (or silence about) poor science erodes the
+perceived need for responsible research, and that it is always
+reasonable to ask skeptical questions. Yet another lesson is that we
+need to take care to ensure that our own research is well founded.
+Good and Bad Science 5
+28
+Philosophers and historians of science have reflected at length on
+the meaning, elements, and methods of research, from both
+practical and abstract points of view. While philosophy can seem
+remote from the practical challenges of research, these reflections
+can be of great benefit to working scientists, who can learn from an
+overall perspective on their work. Being able to describe what we do
+helps us to understand whether we are doing it well.
+Reflections on Research
+29
+Such philosophies and definitions of science help to establish
+guidelines for the practical work that scientists do, and set
+boundaries on what we can know. However, there are limits to how
+precise (or interesting) such definitions can be. For example, the
+question “is computer science a science?” has a low information
+content. Questions of this kind are sometimes in terms of definitions
+of science such as “a process for discovering laws that model
+observed natural phenomena”. Such definitions not only exclude
+disciplines such as computing, but also exclude much of the
+research now undertaken in disciplines such as biology and
+medicine. In considering definitions of science, a certain degree of
+skepticism is valuable; these definitions are made by scientists
+working within particular disciplines and within the viewpoints that
+those disciplines impose.
+Reflections on Research 2
+30
+It is true that, considered as a science, computing is difficult to
+categorize. The underlying theories—in particular, information
+theory and computability—appear to describe properties as eternal
+as those of physics. Yet much research in computer science is
+many steps removed from foundational theory and more closely
+resembles engineering or psychology.
+Reflections on Research 3
+31
+A widely agreed description of science is that it is a method for
+accumulating reliable knowledge. In this viewpoint, scientists adopt
+the belief that rationality and skepticism are how we learn about the
+universe and shape new principles, while recognizing that this belief
+limits the application of science to those ideas that can be examined
+in a logical way. If the arguments and experiments are sound, if the
+theory can withstand skeptical scrutiny, if the work was undertaken
+within a framework of past research and provides a basis for further
+discovery, then it is science. Much computer science has this form.
+Reflections on Research 4
+32
+One of the core concepts is falsification: experimental evidence, no
+matter how substantial or voluminous, cannot prove a theory true,
+while a single counter-example can prove a theory false. A practical
+consequence of the principle of falsification is that a reasonable
+scientific method is to search for counter-examples to hypotheses.
+In this line of reasoning, to search for supporting evidence is
+pointless, as such evidence cannot tell us that the theory is true. A
+drawback of this line of reasoning is that, using falsification alone,
+we cannot learn any new theories; we can only learn that some
+theories are wrong. Another issue is that, in practice, experiments
+are often unsuccessful, but the explanation is not that the
+hypothesis is wrong, but rather that some other assumption was
+wrong—the response of a scientist to a failed experiment may well
+be to redesign it.
+Reflections on Research 5
+33
+Thus falsification can be a valuable guide to the conduct of
+research, but other guides are also required if the research is to be
+productive. One such guide is the concept of confirmation. In
+science, confirmation has a weaker meaning than in general usage;
+when a theory is confirmed, the intended meaning is not that the
+theory is proved, but that the weight of belief in the theory has been
+strengthened. Seeking of experiments that confirm theories is an
+alternative reasonable view of scientific method.
+A consequence is that a hypothesis should allow some possibility of
+being disproved—there should be some experiment whose
+outcomes could show that they[their] hypothesis is wrong. If not, the
+hypothesis is simply uninteresting. Consider, for example, the
+hypothesis “a search engine can find interesting Web pages in
+response to queries”. It is difficult to see how this supposition might
+be contradicted.
+Reflections on Research 6
+34
+In the light of these descriptions, science can be characterized as
+an iterative process in which theory and hypothesis dictate a search
+for evidence—or “facts”— while we learn from facts and use them to
+develop theories. But we need initial theories to help us search for
+facts.
+Reflections on Research 7
+35
+Thus confirmation, falsification, and other descriptions of method
+help to shape research questions as well as research processes,
+and contribute to the practice of science. We need to be willing to
+abandon theories in the face of contradictions, but flexible in
+response to failure; contradictions may be due to an incorrect
+hypothesis, faulty experimental apparatus, or poor measurement of
+the experimental outcomes. We need to be ready to seek plausible
+alternative explanations of facts or observations, and to find
+experiments that yield observations that provide insight into
+theories. That is, theories and evidence are deeply intertwined. A
+scientific method that gives one primacy over the other is unlikely to
+be productive, and, to have high impact, our research programs
+should be designed so that theory and evidence reinforce each
+other.
+Reflections on Research 8
+36
+Regarding hypotheses and questions,
+• What phenomena or properties are being investigated? Why are
+they of interest?
+• Has the aim of the research been articulated? What are the
+specific hypotheses and research questions? Are these elements
+convincingly connected to each other?
+• To what extent is the work innovative? Is this reflected in the
+claims?
+• What would disprove the hypothesis? Does it have any
+improbable consequences?
+• What are the underlying assumptions? Are they sensible?
+• Has the work been critically questioned? Have you satisfied
+yourself that it is sound science?
+A “Hypotheses, Questions, and
+Evidence” Checklist
+37
+Regarding evidence and measurement,
+• What forms of evidence are to be used? If it is a model or a
+simulation, what demonstrates that the results have practical
+validity?
+• How is the evidence to be measured? Are the chosen methods of
+measurement objective, appropriate, and reasonable?
+• What are the qualitative aims, and what makes the quantitative
+measures you have chosen appropriate to those aims?
+• What compromises or simplifications are inherent in your choice
+of measure?
+• Will the outcomes be predictive?
+• What is the argument that will link the evidence to the
+hypothesis?
+A “Hypotheses, Questions, and
+Evidence” Checklist 2
+38
+• To what extent will positive results persuasively confirm the
+hypothesis? Will
+negative results disprove it?
+• What are the likely weaknesses of or limitations to your
+approach?
+A “Hypotheses, Questions, and
+Evidence” Checklist 3
+39
+40

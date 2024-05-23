@@ -1,0 +1,415 @@
+Week 3: Chapter 3
+Reading and Reviewing
+"Writing for Computer Science"
+Third Edition
+by
+Justin Zobel
+1
+A novice researcher can believe that the doing of research is
+primarily about investigation—running experiments, developing
+theory, or doing analysis. With experience, though, researchers
+discover the importance of developing an understanding. It has
+been argued that many experimental researchers do their best work
+after they have been in a field for five years or more, because it
+takes time to acquire a deep, thorough appreciation of the area, and
+of existing knowledge and its limitations. To acquire this
+understanding, you need to become an effective reader of research
+papers.
+Preface
+2
+A successful reader can identify the contributions and value of a
+paper, while recognizing its flaws; and uses critical scrutiny to
+identify the extent to which the flaws in a paper are serious. This
+reading then informs new work, directly as a source of knowledge
+and indirectly as a guide to how to produce work that will be
+appreciated. A particular application of reading, moreover, is to
+become a reliable referee or examiner.
+Preface
+3
+By the time your research is complete, you need to be confident that
+you have read and understood all of the scientific literature that has
+a significant connection to your work. Your reading achieves several
+aims. It establishes that your work is indeed novel or innovative; it
+helps you to understand current theory, discoveries, and debates; it
+can identify new lines of questioning or investigation; and it should
+provide alternative perspectives on your work. This reading will
+ultimately be summarized in the background sections and the
+discussions of related work in your write-ups.
+Research Literature
+4
+The literature on which your work will rely is usually expected to be
+papers that have been refereed and published in a reputable venue,
+theses that have been undertaken and examined at a reputable
+institution, and books that are based on the information presented in
+refereed theses and books. These are the documents that are
+accepted by the research community as a source of knowledge;
+indeed, they can be regarded as being the entirety of our scientific
+knowledge. The literature does not include primary sources such as
+lab notebooks, responses to a survey, or outputs from an
+experiment. What these lack is interpretation of the contents in light
+of a specific hypothesis. Other literature—news articles, science
+magazines, Wikipedia pages, or documentation, for example—may
+alert you to the existence of reputable work, but is rarely worth
+citing. That is, your learning may be built on a wider literature, but
+the arguments in your write-up should be based on knowledge that
+is from a refereed source.
+Research Literature 2
+5
+A thorough search of the literature can easily lead to discovery of
+hundreds of potentially relevant papers. However, papers are not
+textbooks, and should not be treated as textbooks. A researcher
+reading a paper is not studying for an exam; there is rarely a need
+to understand every line.
+Thus it is important to become an effective reader, by giving each
+paper neither more nor less time that it deserves. The first time you
+read a paper, skim through it to identify the extent to which it is
+relevant—only read it thoroughly if there is likely to be value in doing
+so. Make the effort to properly understand the details, but always
+beware of details that may be wrong, or garbled.
+Research Literature 3
+6
+Expect to have a range of modes of reading:
+1. browsing to find papers and get an overview of activity and to
+understand the main outcomes in a body of work;
+2. background reading of texts and popular science magazines;
+3. and thorough, focused reading of key or complex papers that
+stretch your abilities or the limits of your understanding.
+Research Literature 4
+7
+Comprehensive exploration of relevant literature involves following
+several intertwined paths:
+• Use obvious search terms to explore the Web. You are likely to
+find, not just papers, but also home pages for projects and teams
+concerned with the same research area.
+• Some of the major search engines have search tools that are
+specifically for academic papers.
+• Visit the websites of research groups and researchers working in
+the area. These sites should give several kinds of links into the
+wider literature.
+• Follow up the references in promising research papers.
+• Browse the recent issues of the journals and conferences in the
+area.
+Finding Research Papers
+8
+• Search the publisher-specific digital libraries. These include
+publishers such as Wiley and Springer, and professional societies
+such as the ACM and IEEE.
+• Most conferences have websites that list the program, that is, the
+papers to appear in the conference that year.
+• Consider using the citation indexes.
+• Go to the library. The simple strategy of having similar material
+shelved together often leads to unexpected discoveries.
+• Discuss your work with as many people as possible. Some of
+them may well know of relevant work you haven’t encountered.
+Finding Research Papers 2
+9
+The process of search and discovery of useful papers can be
+thought of as a form of learning. Each paper or page that you find
+should refine your understanding of the terminology, help indicate
+which papers are significant, suggest new directions to follow up,
+and further clarify your criteria for whether a paper is “in” or “out”.
+Take a broad definition of “relevant” when searching for papers.
+Finding all relevant work is hard; for example, exhaustive
+professional searches across the medical research literature can
+take months of full-time work. But finding all significant work is a
+critical part of doing research. It is typically the case, too, that the
+scope of literature that is relevant to you may only be obvious once
+you have completed the investigative phase of your research and
+have a good draft of your literature review. Your topic and interests
+are likely to shift, focus, or broaden during your research, and your
+perspective will change as your understanding develops— update
+your searching as you go.
+Finding Research Papers 3
+10
+Searching and reading are separate activities, and it is a mistake to
+try and do both at once. I recommend that you uncritically gather
+material and then later critically analyze and categorize. Save the
+papers you find into a directory, and go through it later to
+understand what you have found. In the context of a single search
+session, it is also helpful to restrict your attention to one or two
+specific topics.
+Having explored the literature, you may discover that your original
+idea is not so original after all. If so, be honest—review your work to
+see what aspects may be novel, but don’t fool yourself into working
+on a problem that is already solved.
+Finding Research Papers 4
+11
+A key aim of reading is to develop critical thinking skills. Good
+researchers must demonstrate their ability to objectively analyze the
+work and claims of others. With experience, you can place each
+paper in a context of other work that you know, and assess it on a
+range of characteristics.
+Much research—far too much—is just misguided. People
+investigate problems that are already solved and well understood,
+or solve problems that technology has made irrelevant, or don’t
+realize that the proposed improvement actually makes the method
+worse. Mathematics may be pointless; the wrong property may be
+proved, such as complexity instead of correctness; assumptions
+may be implausible; evaluation strategies may not make sense. The
+data set used may be so tiny that the results are meaningless.
+Some results are just plain wrong. And, while the fact that a paper is
+refereed is an indicator that it is of value, it is not a guarantee. Many
+people undertake work that did not deserve to be written;
+sometimes it gets published.
+Critical Reading
+12
+Indeed, few papers are perfect. They are a presentation of new
+work rather than a considered explanation of well-known results,
+and the constraints of writing to a deadline mean that mistakes are
+undiscovered and some issues unexplored. Some aspects of older
+papers may be superseded or irrelevant, or may rely on limited or
+technically outdated assumptions. A paper can be seen as a
+snapshot of a research program at a moment in time—what the
+researchers knew when they submitted. For all these reasons, a
+reader needs to be questioning, balanced, and skeptical. In short,
+don’t accept something as true just because it was published. But
+that does not justify researchers being dismissive of past work;
+rather, they should respect it and learn from it, because their own
+work is likely to have similar strengths and weaknesses. Some
+inexperienced researchers see other work as either perfect or poor,
+with nothing in-between. Usually, neither of these extremes is
+correct.
+Critical Reading 2
+13
+Read papers by asking critical questions of them, such as:
+• Is there a contribution? Is it significant?
+• Is the contribution of interest?
+• Are the results correct?
+• Is the appropriate literature discussed?
+• Does the methodology actually answer the initial question?
+• Are the proposals and results critically analyzed?
+• Are appropriate conclusions drawn from the results, or are there
+other possible interpretations?
+• Are all the technical details correct? Are they sensible?
+• Could the results be verified?
+• Are there any serious ambiguities or inconsistencies?
+Critical Reading 3
+14
+That is, actively attempt to identify the contributions and
+shortcomings rather than simply reading from one end to the other.
+This analysis of a paper can be thought of as verifying that each
+component is robust. If the paper is important to your work, you
+should analyze it until you have formed a reasoned opinion about
+each of its components; and if some components are questionable,
+this should be reflected in your literature review.
+Write down your analysis of the paper—you will read hundreds of
+papers, and in some cases will not formally describe them until
+months or years later. However, detailed analysis can be difficult
+before you have undertaken your own work, and in so doing
+developed a mature perspective. Thus reviewing of literature should
+not stop when the investigation begins, but continue alongside the
+research.
+Critical Reading 4
+15
+A literature review is a structured analysis of a body of literature,
+and may cover work from several separate areas of research. This
+review is not simply a list of these papers. Rather, the papers should
+be grouped by topic, and critically discussed in a way that allows the
+reader to understand their contribution to the field, their limitations,
+and the questions that they leave open.
+Developing a Literature Review
+16
+Begin a rough literature review as soon as you start reading, and,
+when you read a paper that you think will need to be discussed, add
+it in. (You should also capture the bibliographic data as you go, and
+also keep a copy of every paper you read.) Initially, the literature
+review will be sketchy and unstructured, but as you add papers you
+can group them by topic and contribution, and add notes on each
+paper and how they relate to each other. Briefly summarize each
+paper’s contribution and the evidence used to support the claims,
+and also note any shortcomings or features that are of interest. You
+might also want to note, for your own reference, how the work might
+have been done better: for example, are there obvious experiments
+that should have been tried, or plausible counter-arguments to the
+claims? Keep in mind that your understanding of other work helps
+examiners to judge your abilities as a researcher.
+Developing a Literature Review 2
+17
+As your review proceeds, it will become easier to decide whether to
+include each of the papers you read. Many obvious factors will
+guide your decisions: how close some other work is to yours, or how
+influential it has been. Some factors may be more subtle. For
+example, you may find a survey paper, or a recent paper with a
+thorough literature review of its own, that means that many of the
+older papers do not need to be discussed.
+I suggest that in early drafts you be as inclusive as possible. When
+you do remove discussion of a paper, put the discussion in another
+file (or comment it out) rather than deleting it altogether, as this text
+is your record of having read the paper.
+Developing a Literature Review 3
+18
+When an author completes a paper, it is submitted to the editor of a
+journal (or the program chai[r] of a conference) for publication. The
+editor sends the paper to referees, who evaluate the paper and
+return assessments. The editor then uses these assessments to
+decide whether the paper should be accepted, or, in the case of a
+journal paper, whether further reviewing or revision is required.
+Authors are expected to be honest, ethical, and careful in their
+preparation of papers. It is ultimately the responsibility of the author
+—not of the journal, the editor, or the referees—to ensure that the
+contents of a paper are correct. It is also the author’s responsibility
+to ensure that the presentation is at an appropriate standard and
+that it is their own work unless otherwise stated.
+Authors, Editors, and Referees
+19
+Referees should be fair and objective, maintain confidentiality, and
+avoid conflict of interest. In addition, they should complete reviews
+promptly, declare their limitations as referees, take proper care in
+evaluating the paper, and only recommend acceptance when they
+are confident that the paper is of adequate standard. Although
+referees can generally assume that authors have behaved ethically,
+many weak or flawed papers are submitted, and a disproportionate
+amount of reviewing is spent on such papers—in part, because they
+are often resubmitted after rejection. Moreover, it would be negligent
+of a referee to assume that a paper is correct and interesting for
+superficial reasons such as good writing, impressive mathematics,
+or author prestige. Referees must also ensure that their reviews are
+accurate and of an appropriate standard.
+Authors, Editors, and Referees 2
+20
+The editor’s responsibilities are to choose referees appropriately,
+ensure that the reviewing is completed promptly and to an adequate
+standard, arbitrate when the referees’ evaluations differ or when the
+authors argue that a referee’s evaluation is incorrect, and use the
+reviews to decide whether the paper should be accepted.
+These participants have very different perspectives. At submission,
+an author may feel that the work is remarkable and perfected, and is
+likely to be sensitive to criticism. Even researchers who are not
+working in the environment of a first-rate research centre, or who
+have never had guidance from a more experienced researcher, may
+well be convinced that their papers are excellent and that negative
+comments are misguided. A consequence is that they may seek
+ways to address issues raised by referees by making only minimal
+changes, and need to be persuaded through convincing argument
+that the referees’ views are reasonable.
+Authors, Editors, and Referees 3
+21
+In contrast, the referee and editor are likely to feel unexcited (the
+majority of submissions are rejected) and disbelieving—in
+submissions, strong results are usually wrong. And they too may be
+sensitive, in this case to typical, frustrating faults, and also to undue
+criticism of their own work in the author’s literature review. In a
+sense, the reviewing process can be seen as a mechanism for
+reconciling these different points of view.
+Authors, Editors, and Referees 4
+22
+Contribution is the main criterion for judging a paper. In broad terms,
+a paper is a contribution if it has two properties: originality and
+validity.
+The originality of a paper is the degree to which the ideas presented
+are significant, new, and interesting. Most papers are to some
+degree extensions or variations of previously published work; really
+groundbreaking ideas are rare. Nonetheless, interesting or
+important ideas are more valuable than trivial increments to existing
+work. Deciding whether there is sufficient originality to warrant
+publication is the main task of the referee.
+Contribution
+23
+When evaluating the significance of a contribution, it is helpful to
+consider its effect, or impact: that is, to judge how much change
+would follow from the paper being published and widely read. If the
+only likely effect is passing interest from a few specialists in the
+area, the paper is minor. If, on the other hand, the likely effect is a
+widespread change of practice or a flow of interesting new results
+from other researchers, the paper is indeed groundbreaking.
+The validity of a paper is the degree to which the ideas have been
+shown to be sound. A paper that does no more than claim from
+intuition that the proposal should hold is not valid. Good science
+requires a demonstration of correctness, in a form that allows
+verification by other scientists. As discussed in Chap. 4 such a
+demonstration is usually by proof or analysis, modeling, simulation,
+or experiment, or preferably several of these methods together, and
+is likely to involve some kind of comparison to existing ideas.
+Contribution 2
+24
+In the area of algorithms, proof and analysis are the accepted
+means of showing that a proposal is worthwhile. The use of theory
+and mathematical analysis is one of the cornerstones of computer
+science: computer technology is ephemeral but theoretical results
+are timeless. Their very durability, however, creates a need for
+certainty: an untrustworthy analysis is not valuable. Thus a paper
+reporting experimental work can be a significant contribution. The
+experiment, to be of sufficient interest, should test behaviour that
+had not previously been examined empirically, or contradict “known”
+results.
+Contribution 3
+25
+Demonstrations of validity, whether by theory or experiment, should
+be rigorous: carefully described, thorough, and verifiable.
+Experiments for assessment of algorithms should be based on a
+good implementation; experiments based on statistical tests of
+subjects should use sufficiently large samples and appropriate
+controls. Comparison to existing work is an important part of the
+demonstration of validity. A new algorithm that is inferior to existing
+alternatives is unlikely to be significant.
+Contribution 4
+26
+The process of evaluating a paper involves asking critical questions
+such as those listed under “Critical reading” earlier in this chapter. In
+addition, there are further questions that should be asked of a paper
+that is under review, which should not just be correct but should be
+suitable for the likely audience.
+• Is the contribution timely or only of historical interest?
+• Is the topic relevant to the venue’s typical readership?
+• What is missing? What would complete the presentation? Is any
+of the material unnecessary?
+• How broad is the likely readership?
+• Can the paper be understood? Is it clearly written? Is the
+presentation at an adequate standard?
+• Does the content justify the length?
+Evaluation of Papers
+27
+Most papers have an explicit or implicit hypothesis—some assertion
+that is claimed to be true—and a proposal or innovation. Try to
+identify what the hypothesis is: if you can’t identify it, there is
+probably something wrong, and if you can, it will help you to
+recognize whether all of the paper is pertinent to the hypothesis,
+and whether important material is missing.
+Evaluation of Papers 2
+28
+The quality of a paper can be reflected in its bibliography. For
+example, how many references are there? This is a crude rule-ofthumb, but often effective. For some research problems there are
+only a few relevant papers, but such cases are the exception. The
+presence of only a few references may be evidence of bad
+scholarship. Also, some authors cite a reasonable number of papers
+without actually citing related literature, thus disguising a core
+bibliography that is far too short. If many of the references are by
+the author, it may be that some of them are redundant. If only a
+couple of the references are recent, the author doesn’t appear to be
+familiar with other research. Similarly, be suspicious of papers with
+no references to the major journals or conferences in the area.
+Expect author-provided evidence of novelty and innovation, via the
+right citations.
+Evaluation of Papers 3
+29
+Referees should make an effort to search for errors that don’t affect
+the quality of the work but should be corrected before going into
+print. These include spelling and syntax, written expression, errors
+in the bibliography, whether all concepts and terms have been
+defined or explained, errors in any formulas or mathematics, and
+inconsistency in just about anything from variable names to table
+layout to formatting of the bibliography. Some of these kinds of
+errors may be picked up in the typesetting process, if the paper is to
+appear in a journal, but many of them won’t be. In particular, only a
+referee is likely to find errors in mathematics.
+Evaluation of Papers 4
+30
+Such errors can become more serious defects that might make the
+paper unacceptable. A few typographic errors in the mathematics
+are to be expected, for example, but if the subscripts are mixed up
+or the notation keeps changing case then it is quite likely that the
+author has not checked the results with sufficient care; it may well
+be reasonable to reject the paper and expect the author to review it
+before submitting again.
+Similar arguments apply to the presentation: to a certain extent
+poorly written papers should be accepted (however reluctantly), but
+real incompetence in the presentation is grounds for rejection,
+because a paper is of no value if it cannot be read. But note that the
+converse does not apply: excellence in presentation does not justify
+acceptance. Occasionally a referee receives a paper that is well
+written and shows real care in the development of the results, but
+which does no more than reproduce existing work. Such papers
+must, regrettably, be rejected.
+Evaluation of Papers 5
+31
+32

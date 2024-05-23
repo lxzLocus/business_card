@@ -1,0 +1,467 @@
+Week 6: Chapter 5
+Writing a Paper
+(Part 2)
+"Writing for Computer Science"
+Third Edition
+by
+Justin Zobel
+For the first draft of a write-up you may find it helpful to write freely
+—without particular regard to style, layout, or even punctuation—so
+that you can concentrate on presenting a smooth flow of ideas in a
+logical structure. Worrying about how to phrase each sentence
+tends to result in text that is clear but doesn’t form a continuous
+whole, and authors who are too critical on the first draft are often
+unable to write anything at all. If you tend to get stuck, just write
+anything, no matter how awful; but be sure to delete any ravings
+later.
+A consequence of having a sloppy first draft is that you must edit
+and revise carefully; initial drafts are often awkwardly written and full
+of mistakes. But few authors write well on the first draft anyway. The
+best writing is the result of frequent, thorough revision.
+The First Draft
+2
+Mathematical content, definitions, and the problem statement
+should be made precise as early as possible. The hypothesis and
+the results flow from a clear statement of the problem being tackled.
+Describing the problem forces you to consider in depth the scope
+and nature of the research. If you find that you cannot describe the
+problem precisely, then perhaps your understanding is lacking or
+the ideas are insufficiently developed.
+The First Draft 2
+3
+It was said earlier, but is worth repeating: the writing should begin
+as soon as the research is started. Right from the start, expect to
+accumulate useful fragments of text that will later be drawn into the
+finished write-up. The later the writing is begun, the harder it will be.
+Delay increases the time between having ideas and having to write
+about them, increases the pressure to read papers to be discussed,
+and reduces the number of experiments that can be thoroughly
+described. Completing your reading, for example, is a poor reason
+to defer writing, because reading is never complete; and in any
+case, the best way to develop your understanding of other papers is
+to write about them.
+The First Draft 3
+4
+The writing defines the research, and the one cannot proceed
+without the other. Writing is a stimulus to research, suggesting fresh
+ideas and clarifying vague concepts and misunderstandings; and
+development of the presentation of the results often suggest the
+form the proofs or experiments should take. Gaps in the research
+may not be apparent until it has been at least preliminarily
+described. Research is also a stimulus to writing—fine points are
+quickly forgotten once the work is complete. Don’t expect the writing
+to progress steadily, but do expect progress overall. If the writing
+seems to have stalled, it is time to put other tasks aside for a while.
+A thesis is typically completed over a much longer time than is a
+paper, but the guidance on writing is the same: the real start of the
+work is when the writing has begun. Being disciplined about writing
+is even more important than for a paper, because over a period of
+years early work will be forgotten if it isn’t captured in an organized
+way.
+The First Draft 4
+5
+However, the task of writing a thesis can be broken into
+manageable stages. In a Ph.D., each chapter can be as rich as a
+paper, and each is likely to be written separately. Drafting of the
+technical chapters that contain the contribution tends to be relatively
+easy (even though the research that underlies these chapters may
+have consumed years of work), in part because you have been
+immersed in this material and will find that you have plenty to say
+about it. The most difficult chapter is usually the background and
+literature review. The volume of careful reading can be an obstacle,
+as is the need to write succinctly and fairly about other people’s
+work. If you finish the background first, it will seem as if the main
+task of writing the thesis is complete.
+The First Draft 5
+6
+The introduction can be surprisingly challenging: achievement of a
+conversational, natural writing style can take many revisions. But
+this is where the examiner meets you for the first time and, as for
+any initial meeting, it is important to make a good impression.
+The First Draft 6
+7
+There are many approaches to the process of assembling a
+technical paper. The technique I use for composing is to brainstorm,
+writing down in point form what has been learnt, what has been
+achieved, and what the results are. The next step is to prepare a
+skeleton, choosing results to emphasize and discarding material
+that on reflection seems irrelevant, and then work out a logical
+sequence of sections that leads the reader naturally to the results.
+From Draft to Submission
+8
+A useful discipline is to choose the section titles before writing any
+text, because if material to be included doesn’t seem to belong in
+any section then the paper’s structure is probably faulty. The
+introduction is completed first and includes an overview of the
+paper’s intended structure, that is, an outline of the order and
+content of the sections. When the structure is complete, each
+section can be sketched in perhaps 20–200 words. This approach
+has the advantage of making the writing task less daunting—it is
+broken into parts of manageable size—while also creating the
+impression that the writing is well under way.
+When the body and the closing summary are complete, the
+introduction usually needs substantial revision because the
+arguments presented in the paper are likely to mature and evolve as
+the writing proceeds. The final version of the abstract is the last part
+to be written.
+From Draft to Submission 2
+9
+Completion of a paper tends to focus on writing of the whole
+document, while a thesis is typically completed chapter by chapter.
+When planning a schedule for completion of a thesis, you need to
+allow time for multiple revisions of each chapter, and, crucially, time
+for your advisor to read each chapter. If two weeks is a typical time
+for your advisor to return a chapter, and for each of the eight
+chapters there will be two versions, then your schedule will need to
+include around eight months to allow for this reading and review
+time—and also needs to include activities that you can complete
+while you are waiting for your advisor to respond. This is another
+reason why it is so important to write early.
+For a novice writer who doesn’t know where to begin, a good
+starting point is imitation. Choose a paper or thesis whose results
+are of a similar flavour to your own, analyze its organization, and
+sketch an organization for your results based on the same pattern.
+The habit of using similar patterns for papers—their standardization
+—helps to make them easier to read.
+From Draft to Submission 3
+10
+Students should keep a comprehensive file of notes as they
+proceed. This can include records of:
+• Meetings.
+• Decisions.
+• Ideas.
+• Expectations of outcomes.
+• Papers you have read.
+• Sketches of algorithms.
+• Code versions.
+• Theorems.
+• Sources of data.
+• Experiments and outcomes
+• Sketches of proofs.
+From Draft to Submission 4
+11
+Expect this log of activity to be a mixture of written material and
+data. In its raw state, the content of a file of notes is not suitable for
+inclusion in a paper, but the themes and issues of the paper can be
+drawn from the file, and it serves as a memory of issues to discuss
+and material to include.
+From Draft to Submission 5
+12
+In computer science, most papers are co-authored. The inclusion of
+several people as authors means that, in principle, all these people
+contributed in some significant way to the intellectual content of the
+paper. In many cases, it also means that the task of writing was
+shared. There are a range of strategies for co-authoring, which vary
+from colleague to colleague and paper to paper. It is not unusual, for
+example, for an advisor to use a student’s thesis as the basis of a
+paper, in which case both advisor and student are listed as authors.
+In this process, the advisor may well dramatically revise the
+student’s work, if only because a typical paper is much shorter than
+a typical thesis.
+Co-authoring
+13
+Co-authoring is a form of research training. It is an opportunity for
+advisors to learn in detail where their students are weak, while a
+paper that has been revised by an advisor is an opportunity for
+students to contrast their attempts at research writing with that of
+people with more experience. An advisor’s revision of a student’s
+draft of paper can involve a great deal of work, and may be the most
+thorough feedback on writing that the student receives during the
+course of a research program.
+Co-authoring 2
+14
+A thesis (or dissertation) is how research students present their
+work for examination. A thesis may have longer-term importance as
+a description of significant research results, but your primary goal
+should be to produce a piece of work that the examiners will pass.
+Theses
+15
+The questions that examiners respond to are much the same as
+those a referee would ask of a paper. That is, the examiners seek
+evidence of an original, valid contribution developed to an
+appropriate standard. However, it is a mistake to view a thesis as no
+more than an extended paper. A paper stands (or does not stand)
+on the strength of the results. A thesis passes (or fails) on the
+strength of your demonstration of competence; even if good results
+are not achieved, the thesis should pass if you have shown the
+ability to undertake high-quality research. Questions that examiners
+might be asked to address include whether you have demonstrated
+command of the fundamentals of the discipline, whether you have
+the ability to correctly interpret results, and whether you have
+sufficiently strong communication skills.
+Theses 2
+16
+As the scope of a thesis is more substantial than that of a paper, the
+introduction should be broad in topic and conversational in tone. It
+could introduce a whole area rather than a single problem. Another
+reason to develop a substantial introduction is that a thesis is a
+more thorough, detailed document than is a paper. Why was the
+problem worth investigating in depth? How do the parts of the
+investigation relate to each other? What are some practical,
+concrete ways in which the outcomes of the work might be used?
+Running examples may be outlined in the introduction, to give unity
+to the thesis overall. The role of a thesis’s introduction is, however,
+much the same as in a paper. As in the introduction of a paper,
+theory, jargon, and notation are inappropriate.
+A running example is an example that is recalled time and again during the paper,
+applying the newly discovered knowledge to it, presumably to show how things work.
+- https://academia.stackexchange.com/questions/111966/difference-between-running-example-and-motivatingexample
+Theses 3
+17
+Take the time to learn about the challenges that are specific to
+thesis writing. Browse other theses, from your own institution, other
+institutions, and other disciplines. Form views about the strengths
+and weaknesses of these theses; these views will help to shape
+your own work. Critically, remember that an examiner may only
+have hours to read your work—you need to help them to spend that
+time well.
+Theses 4
+18
+Over the next few chapters I look at the details of how to write well
+and also some common mistakes that researchers make; these
+largely concern details, that is, individual elements that are poor.
+Some problems in papers, however, are at a higher level, and
+concern the quality of the work as a whole. As a journal editor,
+conference chair, and referee, I see defects of this kind again and
+again—problems that make it certain that the paper will be rejected,
+and which in some cases are obvious to the referee in the first few
+moments of reading.
+Getting It Wrong
+19
+Common ways in which authors “get it wrong” are below. Many of
+these issues are also discussed elsewhere in this book, but it is
+valuable, I think, to consider them together. Something that can be
+confronting about these issues is that, often, the authors appear to
+have worked hard over a long period of time to produce a
+substantial document; and yet it immediately obvious that there is
+no chance of the work being accepted. An experienced researcher
+may feel baffled that this has occurred—as the work progressed, did
+no one see that it was going badly?
+Be alert to the potential faults in your own work, and have the
+courage to abandon or refocus activity that has little chance of
+leading to a valuable outcome.
+Getting It Wrong 2
+20
+When I first see a paper, impressions form in a minute or two,
+influenced by layout, readability, and so on. With some papers,
+though, a positive initial response is gradually followed by a sinking
+feeling: I cannot figure out what this paper is about. Something
+elementary is utterly missing.
+Irrelevance
+21
+What that “something” is can vary. Sometimes there is a lack of
+connection to the literature on any particular topic, and thus no
+sense of what the author is trying to achieve. In some cases the
+author has proposed an elegant solution, but it is not obvious what
+the problem is, or the problem is so unrealistic that it is impossible
+to grasp. It may be that the author has given a clear motivation for
+the work, but the bulk of the paper concerns something else
+entirely; an example was a paper whose starting point was the
+challenge faced by teachers who wish to ensure that Web searches
+only return pages that are appropriate for children, but the
+contribution concerned mechanisms for selectively highlighting
+passages that were relevant to the query.
+Irrelevance 2
+22
+Another form of this are those papers that are submitted to an
+inappropriate venue: work on file compression submitted to a
+conference on database modelling, or work on face recognition
+submitted to a journal on data visualization. Even more surprising
+are papers where the authors have utterly misunderstood the norms
+of research or presentation for the field, such as papers where the
+authors have made no use of standard resources such as data sets,
+or, for example, a paper on search technology written as a narrative
+from the imagined perspective of a document.
+Irrelevance 3
+23
+Most curiously of all, in some papers there is no obvious research
+question, no statement of aims or goals, and no claimed
+contribution. A more subtle problem of this kind is when a paper
+appears to tell a coherent story, but on inspection it becomes clear
+that, say, the experimental results are unrelated to the conclusions.
+In some cases they seem to be on a different topic altogether.
+Irrelevance 4
+24
+Some papers seem reasonable in parts, but the parts don’t belong
+in the same document. A sensible, well-organised paper may be
+framed in terms of grandiose, ambitious claims that can only be
+described as ridiculous. Or there may be a detailed, insightful
+literature review, but it is either disconnected from the contribution,
+or, bizarrely, the contribution is less interesting than the previous
+work that was described so well.
+Inconsistency, Inadequacy, and
+Incompleteness
+25
+For papers that are overall at a high standard, perhaps the single
+commonest problem that leads to rejection is that the experiments
+are inadequate. There may be an interesting method, but the
+experiments are trivial or uninformative, and fall far short of
+supporting the claims; often, in these cases, the problem is that the
+data set used is too artificial to allow any interesting conclusion to
+be drawn. Or a small data set may be used to support claims for
+applications at an entirely different scale, such as a set of a few
+thousand documents being used to make claims about Web search.
+Or the data set may not be relevant to the problem at all. It is as if
+the researchers are so excited about the ideas that they fail to see
+the need for validation, and offer results that have no plausible
+relevance to the paper’s claims.
+Inconsistency, Inadequacy, and
+Incompleteness 2
+26
+Another variety of inadequacy is when parts of the paper are
+missing, or dealt with in a few brief lines rather than pages.
+Strikingly, some papers have no literature review, or are based on a
+single out-of-date textbook, as if previous or recent work was of no
+relevance. But if the author cannot be troubled to properly place the
+work in context of what is already known, a reader cannot learn
+what the contribution is. Another common failing is papers where
+the reader cannot identify what the data is (there may be 200
+documents, but where from? what content? what size? and so on),
+or who ran the experiments, or what techniques were tried. In the
+mind of the reader, moreover, there may not be much of a
+distinction between information that is missing and information that
+is concealed—a line of thought that is unlikely to lead to belief that
+the work was done well. And some papers just aren’t ready to be
+refereed; the underlying work is unfinished and the paper is
+incomplete.
+Inconsistency, Inadequacy, and
+Incompleteness 3
+27
+In the cases above, the shortcomings are not always immediately
+apparent. In other cases, the paper’s problems are obvious straight
+away. For example, when presented with an incoherent abstract or
+introduction, the reader immediately feels that the work cannot be of
+value. A reader can have no hope for a paper whose abstract
+begins with the sentence: “Internet supports all type of the forms of
+information that are digital, such as the pages of the Web
+everywhere and also libraries and email, so it is a language of all
+our information sources in a world repository that is our knowledge.”
+In such cases, there seems to be a wide gap between what the
+writer wants to say and the actual words on the page. I’ve observed
+similar writing in students who are perfectly clear in conversation,
+but in documents seem to want to pour all of their thoughts into a
+few sentences. But incomprehensibility stems from many causes,
+and takes many forms. Regardless of cause, if the result is a
+document that cannot be read, it won’t be.
+Incomprehensibility
+28
+The look of a document is another respect in which problems can
+be immediately obvious. I suspect that many authors do not realise
+how much impact defects in presentation have on readers, but the
+message is clear: if something looks terrible, then the author doesn’t
+care about the content; and if the author doesn’t care, then the
+reader certainly shouldn’t.
+There are several common forms of this ugliness. One is in
+illustrations and tables: graphs that are badly designed or badly
+rendered, tables that are irregular or chaotic, diagrams in which the
+parts are unrelated, and so on. Another form is in layout, with, for
+example, absurdly sized headings or columns that overlap. A third
+form is the presence of dramatic formatting glitches, such as font
+and font size changing from paragraph to paragraph. Each of these
+conveys an impression of laziness.
+Ugliness
+29
+Another kind of mistake conveys an impression of bad judgement:
+the decision to use inappropriate styles of presentation. The comic
+sans font has been widely mocked for its use in slides; it is even
+more mockable in a paper. Other examples include use of colours
+instead of italics for emphasis, comical drawings, and peculiar overthe-top jokes.
+A more subtle form of ugliness is when a paper is dense with errors.
+These may be errors of fact, spelling errors, garbled citations,
+incomplete sentences, or any of a range of such things. They show
+that the author is indifferent to the work, and the reader will respond
+likewise.
+cimic sans font
+Ugliness 2
+30
+All of the issues noted in this section make it difficult to see a paper
+as being of value, but, as a way of persuading the reader that a
+paper is worthless, nothing is more certain than a display of
+ignorance.
+An example of this is when much of a paper is spent explaining an
+elementary concept that will be familiar to any likely reader and
+maybe even to undergraduates. While a few lines of review may be
+appropriate (to ensure that terminology is correctly understood, for
+example), why spend six pages of an algorithms paper explaining
+the difference between random-access memory and hard disks?
+Moreover, when the author gets the details wrong—and uses 1980s
+literature on memory technology in a 2000s paper, to consider one
+particular paper—the main effect is to reveal that the work is
+unreliable.
+Ignorance
+31
+Another display of ignorance is in relation to past literature, as noted
+above. All too often, authors have either paid no attention to key
+past work, or have not troubled to understand it properly and
+dismiss it in a few words. It is astonishing how often authors don’t
+seem to have searched for related papers; a common exercise of
+mine is to paste a paper’s title directly in to a search engine,
+because highly relevant but uncited papers are often in the first
+page of results. When the background and literature review are
+crushed into a few brief paragraphs, it is almost certain that the
+author has nothing to contribute.
+Ignorance 2
+32
+Regarding the scope of the work,
+• In what forum, or kind of forum, do you plan to publish?
+• Is the scope of the work well defined?
+• Is there a single, clearly articulated research question or goal?
+Have you identified which aspect of the work is of greatest
+impact, or of greatest interest?
+• What would success in the project look like? What would failure
+look like? Can you anticipate the form of the outcomes in either
+case?
+• Who is the readership? How deep or thorough will the
+background need to be to ensure that the readers fully appreciate
+the work?
+A “Writing Up” Checklist
+33
+• Do you and your co-authors have an agreed methodology for
+sharing the work of completing the write-up?
+• Are the roles of the participants clear? What are your
+responsibilities? What activities will the others undertake?
+A “Writing Up” Checklist 2
+34
+Regarding how the write-up is organized and presented,
+• What form will your write-up take? What other paper or thesis
+should your write- up resemble?
+• Are you writing to a well-defined structure and organization?What
+are the sections, and how do they relate to each other?
+• Do the title, abstract, and introduction appropriately set the
+context for the work?
+• Have you identified a structure for the argument? A format for the
+results?
+• Have you established a connection between the question,
+background, methods, and results? That is, have you identified
+the shape that the narrative will take?
+A “Writing Up” Checklist 3
+35
+• Is there anything unusual about the organization of the write-up,
+and, if so, is there a reason for this organization and how will it be
+explained to the reader?
+• If you are writing a paper, are you working to defined length limits
+or a specified format?
+• If you are writing a thesis, are there formatting requirements?
+A “Writing Up” Checklist 4
+36
+Regarding your approach to the work,
+• Are you maintaining a log and notebook?
+• Do you work to an explicit schedule with dates and targets?
+• Do the deadlines leave enough time for your advisor to provide
+feedback on your drafts, or for your colleagues to contribute to the
+material?
+• Do you have an effective approach to writing that lets you quickly
+generate text?
+• How are results being selected for presentation? How do these
+results relate to your original aims? How do the selected results
+relate to the complete body of evidence you are gathering?
+A “Writing Up” Checklist 5
+37
+• Have the results been critically analyzed?
+• In a thesis with multiple contributions, are they explicitly linked by
+an over arching goal?
+• For a thesis, do you know how it will be examined?How is that
+knowledge shaping your writing?
+A “Writing Up” Checklist 6
+38
+39

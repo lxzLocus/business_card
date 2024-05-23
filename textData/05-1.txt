@@ -1,0 +1,423 @@
+Week 5: Chapter 5
+Writing a Paper
+(Part 1)
+"Writing for Computer Science"
+Third Edition
+by
+Justin Zobel
+1
+In every research project, a stage is reached at which it makes
+sense to begin to write up. A good principle is to begin early: if it is
+possible to start writing, then writing should start. Shaping the
+research and its outcomes into a write-up is an effective way of
+giving structure to a project, even if the work itself has not yet
+begun.
+The three main phases of a write-up are organizing materials so
+that the work tells a story, giving this story the structure of a thesis
+or of an academic paper, and actually writing. A paper or thesis,
+then, is an outcome of a cycle of activity, from speculation through
+definition and experimentation to write-up, with a range of obstacles
+and issues that can arise on the way.
+Preface
+2
+But it is much more than a record of the work. Although a research
+paper or thesis is the result of a process of research that may have
+been proceeding for months or years, with just a few pages to
+represent months or more of activity by several people a paper may
+be only a small window into the work that was done. A thesis is
+more substantial, and may in some respects be a complete piece of
+research, but even so represents a digesting of the learning and
+outcomes into a relatively compact document. How to proceed to a
+complete document is the topic of this chapter.
+Preface 2
+3
+To begin a paper, the first task is to describe your aims. An effective
+exercise is to write down everything that motivated you to start the
+research. What did you want to achieve? What problems did you
+expect to address? What makes the problems interesting? Next,
+define the scope of the work that you plan to write up. To do so, it is
+necessary to make choices about what to include, and thus it is
+necessary to identify what might be included. Typically, by this stage
+your research has become focused on investigation of a small
+number of specific questions, and you have preliminary
+experimental or theoretical results that suggest what the core
+contribution of the work is going to be.
+The Scope of a Paper
+4
+You might start, for example, by asking questions such as:
+• Which results are the most surprising?
+• What is the one result that other researchers might adopt in their
+work?
+• Are the other outcomes independent enough to be published
+separately later on? Are they interesting enough to justify their
+being included?
+• Does it make sense to explain the new algorithms first, followed
+by description of the previous algorithms in terms of how they
+differ from the new work? Or is the contribution of the new work
+more obvious if the old approaches are described first, to set the
+context?
+• What assumptions or definitions need to be formalized before the
+main theorem can be presented?
+The Scope of a Paper 2
+5
+• What is the key background work that has to be discussed?
+• Who is the readership? For example, are you writing for
+specialists in your area, your examiners, or a general computer
+science audience?
+The Scope of a Paper 3
+6
+A valuable exercise at this stage is to speculate on the format and
+scope of the results. Early in the investigation, decisions will have
+been made about how the results are to be evaluated—that is,
+about which measures are to be used to determine whether the
+research has succeeded or failed. For example, it may be that
+network congestion is the main respect in which the research is
+expected to have yielded improvements in performance. But how is
+network congestion to be measured? As a function of data volume,
+number of machines, network bandwidth, or something else?
+Answering this question suggests a form of presentation into which
+the experimental results can be inserted: a graph, perhaps. The
+form of this graph can be sketched even before any coding has
+begun, and doing so identifies the kind of output that the code is
+required to produce.
+The Scope of a Paper 4
+7
+You may be reporting a particular piece of work, but the way it is
+reported is determined by the characteristics of the audience. For
+example, a paper on machine learning for computer vision may
+have entirely different implications for the two fields, and thus
+different aspects of the results might be emphasized. Also, an
+expert on vision cannot be assumed to have any expertise in
+machine learning, so the way in which the material is explained to
+the two readerships must be based on your judgement, in each
+case, of what is common knowledge and what is unfamiliar. The
+nature of the audience may even determine what can be reported.
+Once the material for a paper has been collected it has to be
+organized into a coherent self-contained narrative, which ultimately
+will form the body of the write-up. Turning this narrative into a writeup involves putting it in the form of an academic paper: including an
+introduction, a bibliography, and so on.
+The Scope of a Paper 5
+8
+A cornerstone of good writing is identifying what the reader needs to
+learn. A strong thesis or paper has a story-like flow, with a sequence
+of concepts building from a foundation of knowledge assumed to be
+common to all readers up to new ideas and results. Thus an
+effective paper educates its readers. It leads readers from what they
+already know to new knowledge you want them to learn. For this
+reason, the body of a good paper—everything between the
+introduction and the conclusions—should have a logical flow that
+has the feel of a narrative.
+Telling a Story
+9
+The story told by a paper is a walk through the ideas and outcomes
+that explains the material in a structured way. The first parts of the
+paper teach the readers the things they need to understand for the
+later parts, while information that isn’t a natural part of this narrative
+should probably be left out. A way to think about the starting point is
+to consider the “you” as you were the day that you began your
+research. Think about what you knew (and didn’t know) at that time,
+and what you have learnt since; your paper or thesis is a chance to
+teach the past “you” all the knowledge that is needed to become the
+current “you”.
+Telling a Story 2
+10
+Thus a paper isn’t a commentary on the research program or the
+day-to-day activities of the participants, and isn’t an unstructured
+collection of information and results; nor is it meant to be
+mysterious. Instead, it is like a guided tour through a gallery, in
+which each room contains something new for the readers to
+comprehend. There is also an expectation of logical closure. The
+early parts of the paper’s body typically explain hypotheses or
+claims; the reader expects to discover by the end whether these are
+justified.
+Telling a Story 3
+11
+There are several common ways for structuring the body of a paper,
+including as a chain, by specificity, by example, and by complexity.
+Perhaps the most common structure is the first of these alternatives,
+a chain in which the results and the background on which they build
+dictate a logical order for presentation of the material. First might
+come, say, a problem statement, then a review of previous solutions
+and their drawbacks, then the new solution, and finally a
+demonstration that the solution improves on its predecessors.
+For some kinds of results, other structures may be preferable. One
+option is to structure by specificity, an approach that is particularly
+appropriate for results that can be divided into several stages. The
+material is first outlined in general terms, then the details are
+progressively filled in. Most technical papers have this organization
+at the high level, but it can also be used within sections.
+Telling a Story 4
+12
+Another structure is by example, in which the idea or result is
+initially explained by, say, applying it to some typical problem. Then
+the idea can be explained more formally, in a framework the
+example has made concrete and familiar.
+A final alternative is to structure the body by complexity. For
+example, a simple case can be given first, then a more complex
+case can be explained as an extension, thus avoiding the difficulty
+of explaining foundational concepts in a complex framework. This
+approach is a kind of tutorial: the reader is brought by small steps to
+the full result. For example, a mathematical result for an objectoriented programming language might initially be applied to some
+simple case, such as programs in which all objects are of the same
+class. Then the result could be extended by considering programs
+with inheritance.
+Telling a Story 5
+13
+When describing specific results, it is helpful, although not always
+possible, to begin with a brief overview of whatever has been
+observed. The rest of the discussion can then be used for
+amplification rather than further observations. Newspaper articles
+are often written in this “pyramid” style. The first sentence
+summarizes the story; the next few sentences review the story
+again, giving some context; then the remainder of the article
+presents the whole story in detail. Sections of research papers can
+sometimes be organized in this way.
+Telling a Story 6
+14
+Scientific papers follow a standard structure that allows readers to
+quickly discover the main results, and then, if interested, to examine
+the supporting evidence. Many readers accept or reject conclusions
+based on a quick scan, not having time to read all the papers they
+see. A well-structured write-up accommodates this behaviour by
+having important statements as near the beginning as possible.
+Organization
+Preface
+15
+You need to:
+• Describe the work in the context of accepted scientific knowledge.
+• State the idea that is being investigated, often as a theory or
+hypothesis.
+• Explain what is new about the idea, what is being evaluated, or
+what contribution the paper is making.
+• Justify the theory, by methods such as proof or experiment.
+Theses, journal articles, and conference papers have much the
+same organization when viewed in outline. There are distinctions in
+emphasis rather than in specific detail.
+A typical write-up has most of the following components:
+Organization
+Preface 2
+16
+A typical write-up has most of the following components:
+• Title and Author
+• Abstract
+• Introduction
+• Body
+• Literature Review
+• Conclusions
+• Bibliography
+• Appendices
+Organization
+Preface 3
+17
+Papers begin with their title and information about authors including
+name, affiliation, and address. The convention in computer science
+is to not give your position, title, or qualifications; but whether you
+give your name as A. B. Cee, Ae Cee, Ae B. Cee, or whatever, is a
+personal decision. Use the same style for your name on all your
+papers, so that they are indexed together. Include a durable email
+address or Web address.
+Also include a date. Take the trouble to type in the date rather than
+using “today” facilities that print the date on which the document
+was last processed, or later you may not be able to tell when the
+document was completed.
+Title and Author
+18
+The front matter of a paper may also include other elements. One is
+acknowledgements, as discussed in Chap. 6, which alternatively
+may follow the conclusions. Another element is a collection of
+search terms, keywords, or key phrases—additional terminology
+that can be used to describe the topic of the paper. Sometimes
+these keywords must be selected from a specific list. In other cases,
+the conventions for choosing such terms are not always clear, but in
+general it is unhelpful to use words that, for example, are a
+description of the experimental methodology: don’t write “timing
+experiments”, for example. Use words that concern the paper’s
+principal themes.
+Title and Author 2
+19
+An abstract is typically a single paragraph of about 50–200 words.
+The function of an abstract is to allow readers to judge whether or
+not the paper is of relevance to them. It should therefore be a
+concise summary of the paper’s aims, scope, and conclusions.
+There is no space for unnecessary text; an abstract should be kept
+to as few words as possible while remaining clear and informative.
+Irrelevancies, such as minor details or a description of the structure
+of the paper, are usually inappropriate, as are acronyms,
+mathematics, abbreviations, or citations. Only in rare circumstances
+should an abstract cite another paper (for example, when one paper
+consists entirely of analysis of results in another), in which case the
+reference should be given in full, not as a citation to the
+bibliography. Sentences such as “We review relevant literature”
+should be omitted.
+Abstract
+20
+情報処理学会　600字、200ワード
+通信学会　500字、100ワード
+Many abstracts follow a five-element organization:
+1. A general statement introducing the broad research area of the
+particular topic being investigated.
+2. An explanation of the specific problem (difficulty, obstacle,
+challenge) to be solved.
+3. A review of existing or standard solutions to this problem and
+their limitations.
+4. An outline of the proposed new solution.
+5. A summary of how the solution was evaluated and what the
+outcomes of the evaluation were.
+Abstract 2
+21
+Thus a draft of an abstract can consist of five sentences, one
+[sentence] for each of the points above. Introductions should be
+structured in much the same way, but with a paragraph or two, not a
+sentence, for each component. A valuable exercise is to read other
+papers, analyze their abstracts and introductions to see if they have
+this form, and then decide whether they are effective.
+Many scientists browse research papers outside their area of
+expertise. You should not assume that all likely readers will be
+specialists in the topic of the paper—abstracts should be selfcontained and written for as broad a readership as possible.
+Abstract 3
+22
+An introduction can be regarded as an expanded version of the
+abstract. It should describe the paper’s topic, the problem being
+studied, references to key papers, the approach to the solution, the
+scope and limitations of the solution, and the outcomes. There
+needs to be enough detail to allow readers to decide whether or not
+they need to read further. It should include motivation: the
+introduction should explain why the problem is interesting, what the
+relevant scientific issues are, why the approach taken is a good
+one, and why the outcomes are significant.
+That is, the introduction should show that the paper is worth reading
+and it should allow the reader to understand your perspective, so
+that the reader and you can proceed on a basis of common
+understanding.
+Introduction
+23
+The introduction can discuss the importance or ramifications of the
+conclusions but should include only a brief summary of the
+supporting evidence, which the interested reader can find in the
+body of the paper. Relevant literature can be cited in the
+introduction, but specialized terminology, complex mathematics, and
+in-depth discussion of the literature belong elsewhere.
+By the end of the introduction, the reader should understand the
+scope of the work, and of the problem.
+The reader should also understand the contribution, that is, what the
+discovery of the work is—the core idea that the referees or
+examiners need to appreciate as novel and important. This
+understanding requires that the reader appreciates what the
+properties of this contribution are, what makes it interesting and
+plausible, what method was used to investigate it, and why the
+method is appropriate.
+Introduction 2
+24
+The body of a paper should present the results. This presentation
+should provide necessary background and terminology, explain the
+chain of reasoning that leads to the conclusions, provide the details
+of central proofs, summarize any experimental outcomes, and state
+in detail the conclusions outlined in the introduction. Descriptions of
+experiments should permit reproduction and verification, as
+discussed in Chap. 14. There should be careful definitions of the
+hypothesis and major concepts, even those that were described
+informally in the introduction. The structure should be evident in the
+section headings. Since the body can be long, narrative flow and a
+clear logical structure are essential.
+The body should be reasonably independent of other papers. If, to
+understand your paper, the reader must find specialized literature
+such as your earlier papers or an obscure paper by your advisor,
+then its audience will be limited.
+Body
+25
+The background material can be entirely separate from the
+discussion of previous work on the same problem. The former is the
+knowledge the reader needs to understand your contribution. The
+latter is, often, alternative approaches that are superseded by your
+work. Together, the discussion of background and previous work
+also introduce the state of the art and its failings, the importance
+and circumstances of the research question, and benchmarks or
+baselines that the new work should be compared to.
+The results section is an assembly of evidence on which the key
+arguments are based. This typically includes presentations of
+experimental outcomes, theorems, proofs, analyses of data, and
+tabulations of investigative outcomes and discoveries. The
+arguments then convey what the results mean—that is, they need to
+be explained, analyzed, and interpreted. For the data, readers need
+to know how the data was gathered, how they might obtain or
+create the data for themselves, and background on issues such as
+limitations of the data.
+Body 2
+26
+Most experiments yield far more data than can be presented in a
+paper of reasonable length. Important results can be summarized in
+a graph or a table, and other outcomes reported in a line or two. It is
+acceptable to state that experiments have yielded a certain outcome
+without providing details, so long as those experiments do not affect
+the main conclusions of the paper (and have actually been
+performed). Similarly, there may be no need to include the details of
+proofs of lemmas or minor theorems. This does not excuse you
+from conducting the experiments or convincing yourself that the
+results are correct, but such information can be kept in logs of the
+research rather than included in the paper.
+In a thesis, each chapter has structure, including an introduction
+and a summary or conclusions. This structure varies with the
+chapter’s purpose. A background chapter may gather a variety of
+topics necessary to understanding of the contribution of the thesis.
+Body 3
+27
+Few results or experiments are entirely new. Usually they are
+extensions of or corrections to previous research—that is, most
+results are an incremental addition to existing knowledge. As
+discussed in Chap. 3, a literature review, or survey, is used to
+compare the new results to similar previously published results, to
+describe existing knowledge, and to explain how it is extended by
+the new results. A survey can also help a reader who is not expert in
+the field to understand the paper and may point to standard
+references such as texts or survey articles.
+Literature Review
+28
+In an ideal paper, the literature review is as interesting and thorough
+as the description of the paper’s contribution. There is great value
+for the reader in a precise analysis of previous work that explains,
+for example, how existing methods differ from one another and what
+their respective strengths and weaknesses are. Such a review also
+creates a specific expectation of what the contribution of the paper
+should be—it shapes what the readers expect of your work, and
+thus shapes how they will respond to your ideas. It is where the
+reader learns why the problem is a challenge and also learns about
+the limitations of simple or previous solutions.
+The literature review can be early in a paper, to describe the context
+of the work, and might in that case be part of the introduction; or,
+less commonly, the literature review can follow or be part of the
+main body, at which point a detailed comparison between the old
+and the new can be made.
+Literature Review 2
+29
+The conclusions section, or summary, is used to draw together the
+topics discussed in the paper. This section should include a concise
+statement of the paper’s important results and an explanation of
+their significance. This is an appropriate place to state (or restate)
+any limitations of the work: shortcomings in the experiments,
+problems that the theory does not address, and so on.
+A conclusion is that which concludes, or the end. Conclusions are
+the inferences drawn from a collection of information. Write
+“Conclusions”, not “Conclusion”. If you have no conclusions to draw,
+write “Summary”, which is often the appropriate way to end a thesis
+chapter.
+Conclusions
+30
+A paper’s bibliography, or its set of references, is a complete list of
+theses, papers, books, and reports cited in the text. No other items
+should be included.
+Bibliography
+31
+Some papers have appendices giving detail of proofs or
+experimental results, and, where appropriate, material such as
+listings of computer programs. The purpose of an appendix is to
+hold bulky material that would otherwise interfere with the narrative
+flow of the paper, or material that even interested readers do not
+need to refer to.
+Appendices are only occasionally necessary for a paper, in cases
+where there is material such as a proof whose length would
+interrupt the flow. But they often have a useful role in a thesis,
+where they can be used for supporting material such as ethics
+approvals, extended tables of data, and transcripts of interviews.
+Appendices
+32
+33

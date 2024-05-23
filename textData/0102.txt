@@ -1,0 +1,700 @@
+2024年度
+科学技術表現 (Q1,R1)
+亀井且有
+情報理工学部　特任教授
+kamei@is.ritsumei.ac.jp
+1
+Week 1:
+コースの紹介と概要
+• 授業目的
+• コース情報
+• 授業スケジュール
+• 教科書
+• 受講における注意点
+• 成績評価方法
+• 授業概要
+本日の内容
+3
+技術者および研究者にとって、論文や報告書を作成し口頭発表を行
+う際に、的確明快に表現する能力は、研究開発能力とともに、非常
+に重要である。
+本講義では、学術論文や学会発表のための論理的な構成の作り方や
+表現技術を教科書および資料を通して学ぶ。
+授業目的
+4
+• コース名：81277（Q1）; 81278（R1）科学技術表現
+• 教室：H322（Q1）; H322（R1）
+• 担当者：亀井且有（情報理工学部特任教授）
+• kamei@is.ritsumei.ac.jp
+• コースニュース：
+• コースメンバーとの重要／緊急事項の連絡ツール
+• 毎日チェックすること
+• 質問：
+• 授業中に質問
+• manaba+R個別指導を利用
+コース情報
+5
+• 第2週04/18;10/03　対面 H322
+• Ch. 1 Introduction
+• Sec. Using This Book only
+• Ch. 2 Getting Started
+• 第3週04/25;10/10 Zoom
+• Ch. 3 Reading and Reviewing
+• up to Sec. Evaluation of Papers
+• 第4週05/02;10/17 Zoom
+• Ch. 4 Hypotheses, Questions, and Evidence
+• 第5週05/09;10/24 Zoom
+• Ch. 5 Writing a Paper (Part 1)
+• up to Sec. Organization
+授業スケジュール
+6
+• 第6週05/16;10/31 Zoom
+• Ch. 5 Writing a Paper (Part2)
+• up to the end
+• 第7週05/23;11/07　対面 H322
+• 第2～6週の小テスト
+• Ch. 6 Good Style
+• 第8週05/30;11/14　対面 H322
+• 第7週の小テスト
+• Ch. 7 Style Specifics
+• 第9週06/06;11/21　対面 H322
+• 第8週の小テスト
+• Ch. 11 Graphs, Figures, and Tables
+授業スケジュール 2
+7
+• 第10週06/13;11/28　対面 H322
+• 第9週の小テスト
+• Ch. 16 Presentations (Part 1)
+• up to Sec. Presentation
+• 第11週06/20;12/05　対面 H322
+• 第10週の小テスト
+• Ch. 16 Presentations (Part 2)
+• up to the end
+• 第12週06/27;12/12 Zoom
+• グループワークによる論文紹介とプレゼン資料の作成
+授業スケジュール 3
+8
+• 第13週07/04;12/19 Zoom
+• グループワークによるプレゼン資料の相互評価
+• レポート課題
+• 第14週07/11;01/09　対面 H322
+• 第11週の小テスト
+• Ch. 17 Ethics
+• 第15週07/18;01/16　対面 H322
+• 第14週の小テスト
+• 「論文の書き方講座」電子情報通信学会ビデオ
+授業スケジュール 4
+9
+"Writing for Computer Science"
+Third Edition
+by
+Justin Zobel
+Published by Springer
+Amazon Kindle版 5,791円
+Web上のpdf版の存在も確認し
+ている。しかし、それをダウン
+ロードして利用することが、著
+作権法に違反する恐れもあり、
+Kindle版の購入を推奨する。
+教科書
+10
+Justin Zobel
+Writing for
+Computer
+Science
+ Third Edition
+• 授業範囲のテキストを授業開始までに読んでおく。
+• 授業範囲全体の概要を把握したのち、精読するのがよい。
+• Kindleには、翻訳機能がついているので、利用すると便利であ
+る。ただし、正しい翻訳とは限らない。
+• 授業終了後にmanaba+Rにアップされた資料を精読し、授業内容
+の理解を深める。
+• 授業の理解度を測るために小テストを実施（9:05開始）する。
+• 第12週のプレゼン資料作成で引用する研究関連論文（自研究室以
+外の著者、6ページ以上、図表を含む、和英は問わない）を授業
+開始までに決定し、配布準備をする。
+受講における注意点
+11
+授業への取組姿勢 15%
+小テスト（11回） 55%
+レポート 30%
+合計　 100%
+成績評価方法
+12
+授業概要
+13
+The role of this book is to help computer scientists with their writing
+and research. For novices, it introduces the elements of a scientific
+paper and reviews a wide range of issues that working researchers
+need to consider.
+Week 2
+Ch. 1 Introduction
+14
+The topic of this chapter is about getting started: finding a question,
+working with an advisor, and planning the research. The perspective
+taken is a practical one, as a working scientist.
+Week 2:
+Ch. 2 Getting Started
+15
+A novice researcher can believe that the doing of research is
+primarily about investigation—running experiments, developing
+theory, or doing analysis. With experience, though, researchers
+discover the importance of developing an understanding.
+Week 3
+Ch. 3 Reading and
+Reviewing
+16
+The first stages of a research program involve choice of interesting
+topics or problems, and then identification of particular issues to
+investigate. The research is given direction by development of
+specific questions that the program aims to answer.
+Week 4
+Ch. 4 Hypotheses,
+Questions, and Evidence
+17
+The three main phases of a write-up are organizing materials so
+that the work tells a story, giving this story the structure of a thesis
+or of an academic paper, and actually writing. A paper or thesis,
+then, is an outcome of a cycle of activity, from speculation through
+definition and experimentation to write-up, with a range of obstacles
+and issues that can arise on the way.
+Week 5
+Ch. 5: Writing a Paper
+(Part 1)
+18
+For the first draft of a write-up you may find it helpful to write freely
+—without particular regard to style, layout, or even punctuation—so
+that you can concentrate on presenting a smooth flow of ideas in a
+logical structure. Worrying about how to phrase each sentence
+tends to result in text that is clear but doesn’t form a continuous
+whole, and authors who are too critical on the first draft are often
+unable to write anything at all.
+Week 6
+Ch. 5 Writing a Paper
+(Part 2)
+19
+There are many ways in which an idea can be expressed in English;
+writing can be verbose or cryptic, flowery or direct, poetic or literal.
+The manner of expression is the writing style. Style is not about
+correct use of grammar, but about how well you communicate with
+likely readers.
+Week 7
+Ch. 6 Good Style
+20
+Good style is about clear, easy-to-read writing, which can be
+achieved by following well-defined guidelines. These are not
+arbitrary rules, but are principles that experienced writers follow. In
+the previous chapter, some of these principles were reviewed. This
+chapter concerns a range of specific problems that are common in
+technical writing.
+Week 8
+Ch. 7 Style Specifics
+21
+Well-chosen illustrations breathe life into a paper, giving the reader
+interesting visual elements to browse and highlighting the central
+results and ideas. A typical figure consists of visual matter such as a
+graph or diagram, or of textual matter such as a table, algorithm, or,
+less commonly, complex mathematics.
+Week 9
+Ch. 11 Graphs, Figures, and
+Tables
+22
+Scientists often have to talk about their work in front of an audience.
+Even experienced speakers can feel intimidated when they have to
+give a presentation, but the main challenges can be addressed with
+a straightforward approach based on good preparation, careful
+development of materials, and familiarity with the possible pitfalls. A
+nervous researcher needs practice to become an accomplished
+public speaker, but with the right approach even a first talk can be
+successful.
+Week 10
+Ch. 16 Presentations
+ (Part 1)
+23
+Question time at the end of a talk is used to clarify
+misunderstandings and to amplify any points that listeners want
+discussed in more detail. Five or ten minutes is too brief for serious
+discussion: you need to keep answers short and avoid debating with
+an audience member, because it is annoying for everyone else.
+Week 11
+Ch. 16 Presentations
+ (Part 2)
+24
+• 授業開始までに、プレゼン資料の作成に引用する学術論文（6
+ページ以上、自分の研究室以外の論文、図表を含む、和英は問わ
+ない）を決定しておく。
+• 授業中は、グループメンバーに論文を紹介しながら、プレゼン資
+料を作成する。
+• プレゼン資料は発表時間を10分と仮定する。
+Week 12
+GWによるプレゼン資料の作
+成
+25
+• 作成したプレゼン資料をグループメンバーに配布する。
+• テキスト第11章および第16章に基づきプレゼン資料をメンバー
+相互で評価する。
+• Chapter 11: Graphs, Figures, and Tables
+• Chapter 16: Presentations
+• 相互評価で指摘された点を修正する。
+• レポート課題を公開する。
+Week 13
+GWによるプレゼン資料の相
+互評価およびレポート課題
+26
+Science is built on trust. Researchers are expected to be honest,
+and research is assumed to have been undertaken ethically. For
+example, referees assess whether results are significant but are not
+expected to investigate whether the reported experiments actually
+took place, because it is assumed that the authors have not lied
+about their work.
+Week 14
+Ch. 17 Ethics
+27
+• 論文の書き方（和文）
+• 高橋応明（千葉大学）
+• 論文の書き方（英文）【初級編】
+• 岩井 誠人（同志社大学）
+• https://www.ieice.org/~cs-edit/magazine/ronbun_kouza.html
+Week 15
+「論文の書き方講座」
+電子情報通信学会ビデオ
+28
+
+
+
+----------------WEEK2-------------------
+
+
+Week 2: Chapter 1
+Introduction
+"Writing for Computer Science"
+Third Edition
+by
+Justin Zobel
+1
+There are many good general books on writing style and research
+methods, but the conventions of style vary from discipline to
+discipline, and broad guidance on science writing can be wrong or
+irrelevant for a specific area. Some topics—such as algorithms,
+mathematics, and research methods for computer science—are not
+discussed in these books at all.
+Using This Book
+2
+The role of this book is to help computer scientists with their writing
+and research. For novices, it introduces the elements of a scientific
+paper and reviews a wide range of issues that working researchers
+need to consider. For experienced researchers, it provides a
+reference point against which they can assess their own views and
+abilities, and is an exposure to wider cultures of research. This book
+is also intended to encourage reflection; some chapters pose
+questions about research that a responsible researcher should
+address. Nobody can learn to write or become a researcher just by
+reading this book, or indeed any book. To become competent it is
+necessary to practice, that is, to do research and write it up in
+collaboration with experienced researchers. However, familiarity
+with the elements of writing and research is essential in scientific
+training.
+Using This Book 2
+3
+Style is in some respects a matter of taste. The advice in this book
+is not a code of law to be rigidly obeyed; it is a collection of
+guidelines, not rules, and there are inevitably situations in which the
+“correct” style will seem wrong. But generally there are good
+reasons for writing in a certain way. Almost certainly you will
+disagree with some of the advice in this book, but exposure to
+another opinion should lead you to justify your own choice of style,
+rather than by habit continue with what may be poor writing. A good
+principle is: By all means break a rule, but have a good reason for
+doing so.
+Using This Book 3
+4
+Most computer scientists can benefit from reading a book about
+writing and research. This book can be used as the principal text for
+a senior research methods subject, or for a series of lectures on the
+practice of research. Such a subject would not necessarily follow
+this book chapter by chapter, but instead use it as a resource. In my
+own teaching of research methods, lectures on writing style seem to
+work best as introductions to the key topics of good writing; talking
+students through the detailed advice given here is less effective
+than getting them to read the book while they write and undertake
+research for themselves. That said, for a range of topics—figures,
+algorithms, presentations, statistics, reading and reviewing, drafting,
+ethics, and experimentation, for example—the relevant chapter can
+be used as the basis of one or two lectures.
+Using This Book 4
+5
+Week 2: Chapter 2
+Getting Started
+"Writing for Computer Science"
+Third Edition
+by
+Justin Zobel
+6
+There are many ways in which a research project can begin. It may
+be that a conversation with a colleague suggested interesting
+questions to pursue, or that your general interest in a topic was
+crystallized into a specific investigation by something learnt in a
+seminar, or that enrollment in a research degree forced you to
+identify a problem to work on. Then definite aims are stated;
+theories are developed or experiments are undertaken; and the
+outcomes are written up.
+The topic of this chapter is about getting started: finding a question,
+working with an advisor, and planning the research. The perspective
+taken is a practical one, as a working scientist: What kinds of stages
+and events does a researcher have to manage in order to produce
+an interesting, valid piece of work? This chapter, and Chaps. 3, 4,
+14, and 15, complement other parts of the book—which are largely
+on the topic of how research should be described—by considering
+how the content of paper is arrived at.
+Preface
+7
+Thus this chapter concerns the first of the steps involved in doing a
+research project, which broadly are:
+• Formation of a precise question, the answer to which will satisfy
+the aim of the research.
+• Development of a detailed understanding, through reading and
+critical analysis of scientific literature and other resources.
+• Gathering of evidence that relates to the question, through
+experiment, analysis, or theory. These are intended to support—
+or disprove—the hypothesis underlying the question.
+• Linking of the question and evidence with an argument, that is, a
+chain of reasoning.
+• Description of the work in a publication.
+Preface 2
+8
+Learning to do research involves acquisition of a range of separate
+skills. It takes experience to see these skills as part of a single
+integrated “process of research”. That is, many people learn to be
+researchers by working step by step under supervision; only after
+having been through the research process once or twice does the
+bigger picture become evident.
+Some newcomers try to pursue research as if it were some other
+kind of activity. For example, in computer science many research
+students see experimentation as a form of software development,
+and undertake a research write-up as if they were assembling an
+essay, a user manual, or software documentation. Part of learning
+to be a scientist is recognition of how the aims of research differ
+from those of coursework.
+Preface 3
+9
+A perspective on research is that it is the process that leads to
+papers and theses, because these represent our store of accepted
+scientific knowledge. Another perspective is that it is about having
+impact; by creating new knowledge, successful research changes
+the practices and understandings of other scientists. Our work must
+be adopted in some way by others if it is to be of value. Thus
+another part of learning to be a scientist is coming to understand
+that publication is not an end in itself, but is part of an ongoing
+collaborative enterprise.
+Preface 4
+10
+The origin of a research investigation is typically a moment of
+insight. A student attending a lecture wonders why search engines
+do not provide better spelling correction. A researcher investigating
+external sorting is at a seminar on file compression, and ponders
+whether one could be of benefit to the other. An advisor is frustrated
+by network delays and questions whether the routing algorithm is
+working effectively. A student asks a professor about the possibility
+of research on evaluation of code reliability; the professor, who
+hadn’t previously contemplated such work, realizes that it could
+build on recent advances in type theory. Tea-room arguments are a
+rich source of seed ideas. One person is idly speculating, just to
+make conversation; another pursues the speculation and a research
+topic is created. Or someone claims that a researcher’s idea is
+unworkable, and a listener starts to turn over the arguments. What
+makes it unworkable? How might those issues be addressed?
+Beginnings
+11
+This first step is a subjective one: to choose to explore ideas that
+seem likely to succeed, or are intriguing, or have the potential to
+lead to something new, or that contradict received wisdom. At the
+beginning, it isn’t possible to know whether the work is novel or will
+lead to valuable results; otherwise there would be no scope for
+research. The final outcome is an objective scientific report, but
+curiosity and guesswork are what establish research directions.
+Beginnings 2
+12
+It is typically at this stage that a student becomes involved in the
+research. Some students have a clear idea of what they want to
+pursue—whether it is feasible, rational, or has research potential is
+another matter—but the majority are in effect shopping for a topic
+and advisor. They have a desire to work on research and to be
+creative, perhaps without any definite idea of what research is. They
+are drawn by a particular area or problem, or want to work with a
+particular individual. Students may talk through a range of possible
+projects with several alternative advisors before making a definite
+choice and starting to work on a research problem in earnest.
+Beginnings 3
+13
+How a potential research topic is shaped into a defined project
+depends on context. Experienced scientists aiming to write a paper
+on a subject of mutual interest tend to be fairly focused: they quickly
+design a series of experiments or theoretical goals, investigate the
+relevant literature, and set deadlines.
+For students, doing a research project additionally involves training,
+which affects how the work proceeds. Also, for a larger research
+program such as a Ph.D., there are both short-term and long-term
+goals: short-term goals include the current specific explorations,
+which may be intended to lead to an initial research paper; the longterm goals are the wider investigation that will eventually form the
+basis of the student’s thesis.
+Shaping a Research Project
+14
+At the beginning of a research program, then, you need to establish
+answers to two key questions. First, what is the broad problem to be
+investigated? Second, what are the specific initial activities to
+undertake and outcomes to pursue? Having clear short-term
+research goals gives shape to a research program. It also gives the
+student training in the elements of research: planning, reading,
+programming, testing, analysis, critical thinking, writing, and
+presentation.
+Shaping a Research Project 2
+15
+When developing a topic into a research question, it is helpful to
+explore what makes the topic interesting. Productive research is
+often driven by a strong motivating example, which also helps focus
+the activity towards useful goals. It can be easy to explore problems
+that are entirely hypothetical, but difficult to evaluate the
+effectiveness of any solutions. Sometimes it is necessary to make a
+conscious decision to explore questions where work can be done,
+rather than where we would like to work; just as medical studies
+may involve molecular simulations rather than real patients, robotics
+may involve the artifice of soccer-playing rather than the reality of
+planetary exploration.
+Shaping a Research Project 3
+16
+In choosing a topic and advisor, many students focus on the
+question of “is this the most interesting topic on offer?”, often to the
+exclusion of other questions that are equally important. One such
+question is “is this advisor right for me?” Students and advisors form
+close working relationships that, in the case of a Ph.D., must endure
+for several years. The student is typically responsible for most of the
+effort, but the intellectual input is shared, and the relationship can
+grow over time to be a partnership of equals. However, most
+relationships have moments of tension, unhappiness, or
+disagreement. Choosing the right person—considering the advisor
+as an individual, not just as a respected researcher—is as important
+as choosing the right topic. A charismatic or famous advisor isn’t
+necessarily likeable or easy to work with.
+Shaping a Research Project 4
+17
+Another important question is, is this project at the right kind of
+technical level? Some brilliant students are neither fast
+programmers nor systems experts, while others do not have strong
+mathematical ability. It is not wise to select a project for which you
+do not have the skills or that doesn’t make use of your strengths.
+An alternative perspective on the issue of how to choose a topic is
+this: most projects that are intellectually challenging are interesting
+to undertake; agonizing over whether a particular option is the
+project may not be productive. However, it is also true that some
+researchers only enjoy their work if they can identify a broader
+value: for example, they can see likely practical outcomes. Highly
+speculative projects leave some people dissatisfied, while others
+are excited by the possibility of a leap into the future.
+Shaping a Research Project 5
+18
+When evaluating a problem, a factor to consider is the barrier to
+entry, that is, the knowledge, infrastructure, or resources required to
+do work in a particular field. Sometimes it just isn’t possible to
+pursue a certain direction, because of the costs, or because no-one
+in your institution has the necessary expertise.
+As research fields mature, there is a tendency for the barrier to
+entry to rise: the volume of background knowledge a new
+researcher must master is increased, the scope for interesting
+questions is narrowed, the straightforward or obvious lines of
+investigation have been explored, and the standard of the baselines
+is high. If a field is popular or well-developed, it may make more
+sense to explore other directions.
+Shaping a Research Project 6
+19
+Project scale is a related issue. Some students are wildly ambitious,
+entering research with the hope of achieving something of dramatic
+significance. However, major breakthroughs are by definition rare—
+otherwise, they wouldn’t be major— while, as most researchers
+discover, even a minor advance can be profoundly rewarding.
+Moreover, an ambitious project creates a high potential for failure,
+especially in a shorter-term project such as a minor thesis. There is
+a piece of folklore that says that most scientists do their best work in
+their Ph.D. This is a myth, and is certainly not a good reason for
+tackling a problem that is too large to resolve.
+For a novice researcher, it makes sense to identify outcomes that
+can clearly be achieved; this is research training, after all, not
+research olympics. A principle is to pursue the smallest question
+that is interesting. If these outcomes are reached early on, it should
+be straightforward, in a well-designed project, to move on to more
+challenging goals.
+Shaping a Research Project 7
+20
+Some research is concerned with problems that appear to be solved
+in commercial or production software. Often, however, research on
+such problems can be justified. In a typical commercial
+implementation the task is to find a workable solution, while in
+research the quality of that solution must be measured, and thus
+work on the same problem that produces similar solutions can
+nonetheless have different outcomes. Moreover, while it is in a
+company’s interests to claim that a problem is solved by their
+technology, such claims are not easily verified. In some cases,
+investigation of a problem for which there is already a commercial
+solution can be of as much value as investigation of a problem of
+purely academic interest.
+Shaping a Research Project 8
+21
+Students commencing their first research project are accustomed to
+the patterns of undergraduate study: attending lectures, completing
+assignments, revising for exams. Activity is determined by a
+succession of deadlines that impose a great deal of structure.
+In contrast, a typical research project has just one deadline:
+completion. Administrative requirements may impose some
+additional milestones, such as submission of a project outline or a
+progress report, but many students (and advisors) do not take these
+milestones seriously. However, having a series of deadlines is
+critical to the success of a project. The question then is, what should
+these deadlines be and how should they be determined?
+Research Planning
+22
+A strong approach to the task of defining a project and setting
+milestones is to explicitly consider what is needed at the end, then
+reason backwards. The final thing required is the write-up in the
+form of a thesis, paper, or report; so you need to plan in terms of the
+steps necessary to produce the write-up. As an example, consider
+research that is expected to have a substantial experimental
+component; the write-up is likely to involve a background review,
+explanations of previous and new algorithms, descriptions of
+experiments, and analysis of outcomes. Completion of each of
+these elements is a milestone.
+Experiments may also involve users. Who will they be? Is ethics
+clearance required? Computer scientists, accustomed to working
+with algorithms and proofs, are often surprised by how wide-ranging
+their university ethics requirements can be.
+Research Planning 2
+23
+Two points here are worth emphasizing. First, while the components
+of a research project should be identified in advance, they do not
+necessarily have to be completed in turn. Second, we should plan
+research with the following attitude: what evidence must we collect
+to convince a skeptical reader that the results are correct? A
+successful research outcome rests on finding a good answer to this
+question.
+A traditional research strategy is to first read the literature, then
+design, then analyze or implement, then test or evaluate, then write
+up. A more effective strategy is to overlap these stages as much as
+possible. You should begin the implementation, analysis, and writeup as soon as it is reasonable to do so.
+Research Planning 3
+24
+For the long-term research activity of a Ph.D., there are other
+considerations that become significant. A typical concern in the later
+stages of a Ph.D. is whether enough research has yet been done,
+or whether additional new work needs to be undertaken. Often the
+best response to this question is to write the thesis. Once your
+thesis is more or less complete, it should be easy to assess whether
+further work is justified. Doing such additional work probably
+involves filling a well-defined gap, a task that is much better defined
+than that of fumbling around for further questions to investigate.
+Research Planning 4
+25
+The purpose of a research program—a Ph.D., masters, or minor
+thesis—is for the university to provide a student with research
+training, while the student demonstrates the capability to undertake
+research from conception to write-up, including such skills as
+working independently and producing novel, critical insights. A sidebenefit is that the student, often with the advisor, should produce
+some publishable research. There are a range of approaches to
+advising that achieve these aims, but they are all based on the
+strategy of learning while doing.
+Students and Advisors
+26
+Some advisors, for example, set their students problems such as
+verifying a proof in a published paper and seeing whether it can be
+applied to variants of the theorem, thus, in effect, getting the student
+to explore the limits at which the theorem no longer applies. Another
+example is to attempt to confirm someone else’s results, by downloading code or by developing a fresh implementation. The
+difficulties encountered in such efforts are a fertile source of
+research questions. Other advisors immediately start their students
+on activities that are expected to lead to a research publication. It is
+in this last case that the model of advising as apprenticeship is most
+evident.
+Students and Advisors 2
+27
+Typically, in the early stages the advisor specifies each small step
+the student should take: running a certain experiment, identifying a
+suitable source of data, searching the literature to resolve a
+particular question, or writing one small section of a proposed
+paper. As students mature into researchers, they become more
+independent, often by anticipating what their advisors will ask, while
+advisors gradually leave more space for their students to assert this
+independence. Over time, the relationship becomes one of
+guidance rather than management.
+Students and Advisors 3
+28
+The student–advisor relationship is not only concerned with
+research training, but is a means for advisors to be involved in
+research on a particular topic. Thus students and advisors often
+write papers together. At times, this can be a source of conflict,
+when, for example, an advisor wants a student to work on a paper
+while the student wants to make progress on a thesis. On the other
+hand, the involvement of the advisor—and the incentive for the
+advisor to take an active role—means that the research is
+undertaken as teamwork.
+Students and Advisors 4
+29
+Over the years I have noticed that there are several characteristics
+that are shared by successful research students. First, they show a
+willingness to read widely, to explore the field broadly beyond their
+specific topic, to try things out, and to generally take part in the
+academic community. Second, they have the enthusiasm to develop
+their interest in some area, and then ask for advice on how that
+interest can be turned into a thesis project. Third, they have the
+ability and persistence to undertake a detailed (and even grueling)
+investigation of a specific facet of a larger topic. Fourth, they take
+the initiative in terms of what needs to be done and how to present
+it, and gradually assume responsibility for all aspects of the
+research. Fifth, they are systematic and organized, and understand
+the need for rigour [rigorous], discipline, stringency, quality, and high
+standards. Sixth, they actively reflect on habits and working
+practices, and seek to improve themselves and overcome their
+limitations and knowledge gaps. Seventh, their work looks plausible;
+it has the form and feel of high-quality published papers. Last, they
+have the strength to keep working despite some significant failed or
+unsuccessful activity; in a Ph.D., loss of months of work is not
+unusual.
+Students and Advisors 5
+30
+Note that neither “brilliance” nor “genius” is in this list. Intellectual
+capacity is important, but many bright people do not become
+outstanding Ph.D. students— sometimes, because they
+underestimate the challenge of extended study. Indeed, I’ve
+supervised several students whose previous academic record was
+uninspiring but who nonetheless produced a strong thesis, in
+particular because they were persistent and resilient enough to
+pursue their work despite setbacks and obstacles.
+Students and Advisors 6
+31
+• Is your proposed topic clearly a research activity? Is it consistent
+with the aims and purposes of research?
+• How is your project different from, say, software development,
+essay writing, or data analysis?
+• In the context of your project, what are the area, topic, and
+research question? (How are these concepts distinct from each
+other?)
+• Is the project of appropriate scale, with challenges that are a
+match to your skills and interests? Is the question narrow enough
+to give you confidence that the project is achievable?
+• Is the project distinct from other active projects in your research
+group? Is it clear that the anticipated outcomes are interesting
+enough to justify the work?
+A “Getting Started” Checklist
+32
+• Is it clear what skills and contributions you bring to the project,
+and what will be contributed by your advisor? What skills do you
+need to develop?
+• What resources are required and how will you obtain them?
+• What are the likely obstacles to completion, or the greatest
+difficulties? Do you know how these will be addressed?
+• Can you write down a road map, with milestones, that provides a
+clear path to the anticipated research outcomes?
+• Do you and your advisor have an agreed method for working
+together, with a defined schedule of meetings?
+A “Getting Started” Checklist 2
+33
+34
+
+
+
