@@ -3,8 +3,14 @@
   "name": "Search_txt",
   "description": "web text search from txt file",
   "version": "1.0",
-  "action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
-  }
+  "background": {
+    "service_worker": "script.js"
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "tabs"
+  ]
 }
